@@ -2,10 +2,10 @@
 <index>
   <info>
     <update version="0.1">
-      <file name="nouser.index" url="http://hosting.com/files/sample.index" />
+      <file name="nouser.index" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/nouser.index" />
     </update>
   </info>
   <files>
-    <file name="source.xml" url="http://hosting.com/files/source.xml" />
+    <file name="source.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/source.xml" />
   </files>
 </index>
