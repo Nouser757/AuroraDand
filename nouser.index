@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.1">
+    <update version="0.2">
       <file name="nouser.index" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/nouser.index" />
     </update>
   </info>
   <files>
     <file name="source.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/source.xml" />
+	
+	<!-- races -->
+	<file name="anthesi.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Anthesi.xml" />
+	
+	<!-- classes -->
+	
+	<!-- backgrounds -->
+	<file name="god touched.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/God%20Touched.xml" />
+	<file name="transformed monster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/Transformed%20Monster.xml" />
+	
+	<!-- items -->
+	<file name="nouseritems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Nousers-Misc/Items.xml" />
+	
+	<!-- spells -->
   </files>
 </index>
