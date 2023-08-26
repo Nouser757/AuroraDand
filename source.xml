@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="" />
+		</update>
+	</info>
+	<element name="Nouser's Dand Expansion" type="Source" source="Core" id="ID_NOUS_SOURCE_DAND_WIKI">
+    <description>Me and my partners picked a bunch of shit from the Dand Wiki and implemented it, also some things i made myself for funsies</description>
+		<setters>
+			<set name="abbreviation">DAND</set>
+			<set name="url">https://www.dandwiki.com/wiki/Main_Page</set>
+			<set name="image">https://www.dandwiki.com/w/images/3/3f/D%26D_Wiki_Logo_-_final.svg</set>
+			<set name="author" abbreviation="NOUS">Nouser757</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>

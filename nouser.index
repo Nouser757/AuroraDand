@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="0.1">
+      <file name="nouser.index" url="http://hosting.com/files/sample.index" />
+    </update>
+  </info>
+  <files>
+    <file name="source.xml" url="http://hosting.com/files/source.xml" />
+  </files>
+</index>

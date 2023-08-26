@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+    <element name="God Touched" type="Background" source="Dand Wiki" id="ID_DAND_BACKGROUND_GOD_TOUCHED">
+		<description>
+			<p>A person who is god touched is someone who has had some form of interaction with a god or goddess that left them in their current state. As a reward or something cruel, god touched people are gifted in situations regarding the mind and are given a clearer way of thinking about the world around them.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Religion, Insight</li>
+				<li><strong>Languages:</strong> Celestial and one other of your choice.</li>
+				<li><strong>Equipment:</strong> A holy book relating to the god/goddess who affected you, a history book about the gods, a notebook and quill, a set of traveler's clothes, and a pouch containing 15 GP</li>
+			</ul>
+			<div element="ID_DAND_BACKGROUND_FEATURE_PROPHET" />
+			<div element="ID_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS" />
+		</description>
+		<setters>
+			<set name="short">Religion, Insight</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<select type="Language" name="Language (God Touched)" />
+			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
+			<grant type="Background Feature" id="ID_DAND_BACKGROUND_FEATURE_PROPHET" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">Constant visions of how I will die show me how to avoid it. It can get unbearable.</item>
+				<item id="2">Despite being a favored of the gods, I am no better than anyone else.</item>
+				<item id="3">I always have a story to tell of a time when the gods came to my aid.</item>
+				<item id="4">I believe the gods keep me alive so they don't have to deal with me.</item>
+				<item id="5">Constant visions of my own death tend to wear away at my mental stability.</item>
+				<item id="6">I am endlessly optimistic, for I have no fear of death.</item>
+				<item id="7">I am endlessly pessimistic, as I see every way things could result in my death.</item>
+				<item id="8">My active imagination goes against me as I often imagine crying to death.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Savior. I know when danger approaches, and so I shall do what I can to save everyone. (Good)</item>
+				<item id="2">Survival of the Fittest. If everyone was meant to survive, they'd be god touched too. (Chaotic)</item>
+				<item id="3">Narcissistic. Clearly I'm more important than those without this gift. (Chaotic)</item>
+				<item id="4">Hero. If I weren't meant to save others, I wouldn't see their deaths along with my own. (Good)</item>
+				<item id="5">Karma. Life is the ultimate gift. If I save you, don't waste your second chance. (Chaotic)</item>
+				<item id="6">Obedience. My gift can be a curse. I want to save you, but I will not sin to do so. (Lawful)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">The godly visions have saved me many times. I owe it to them to take on holy quests.</item>
+				<item id="2">I lost my family in return for this gift. I refuse to waste it.</item>
+				<item id="3">I fear that if I abuse this gift, my life will be taken from me as compensation.</item>
+				<item id="4">I failed to save a friend because I hesitated. There is no time for moral debates.</item>
+				<item id="5">Can does not mean should. Not everyone is supposed to survive everything.</item>
+				<item id="6">Life is not worth living without friends, which is why I will always save them.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">Knowing what will kill me, I tend to take risks that endanger other people.</item>
+				<item id="2">People tend to know that I think poorly of them for being lesser beings.</item>
+				<item id="3">I care too much about the people around me to let them die when I can help.</item>
+				<item id="4">Sometimes I have slight sanity snaps and can get a little volitile.</item>
+				<item id="5">I live in constant fear of how I'll see my death next.</item>
+				<item id="6">With godly visions in my mind, I have no time for legalities. If an illegal route is faster or safer, I will take it.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Prophet" type="Background Feature" source="Dand Wiki" id="ID_DAND_BACKGROUND_FEATURE_PROPHET">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Directly interacting with a god is no common occurrence, and has left you being the talk of the churches. This has left you with many friends as well as enemies. Followers of the god or goddess who has interacted with you will take you in as needed, and even possibly provide offerings. However, those who resent the god or goddess may turn you away, or even respond to you with hostility.</p>
+		</description>
+		<sheet alt="Prophet">
+			<description>Directly interacting with a god is no common occurrence, and has left you being the talk of the churches. This has left you with many friends as well as enemies. Followers of the god or goddess who has interacted with you will take you in as needed, and even possibly provide offerings. However, those who resent the god or goddess may turn you away, or even respond to you with hostility.</description>
+		</sheet>
+	</element>
+
+    <element name="Variant Feature: Guidance of the Gods" type="Background Feature" source="Dand Wiki" id="ID_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS">
+		<requirements>ID_DAND_BACKGROUND_GOD_TOUCHED</requirements>	
+		<supports>Background Feature, Optional Background Feature</supports>
+		<description>
+			<p>While you may not know what your purpose in life is, the god or goddess who directly affected you does and has a plan for you. When you are feeling lost, your deity shows you what you are needing to do, be it through visions, dreams, or in-person interaction.</p>
+		</description>
+		<sheet alt="Guidance of the Gods">
+			<description>While you may not know what your purpose in life is, the god or goddess who directly affected you does and has a plan for you. When you are feeling lost, your deity shows you what you are needing to do, be it through visions, dreams, or in-person interaction.</description>
+		</sheet>
+	</element>
+
+</elements>
+    

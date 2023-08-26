@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Anthesi" type="Race" source="Dand Wiki" id="ID_NOUS_DAND_RACE_ANTHESI">
+    <description>
+      <p class="flavor">A long abandoned grave lies in rest near a now overgrown farmhouse. A small tree sprouts from behind the gravestone, its roots reaching deep into the earth below. The ground shifts for the first time in decades, as a small, green hand breaches the surface.</p>
+      <h4>Physical Description</h4>
+      <p>Anthesi are beings that resemble humanoids with plant or fungus-like characteristics, such as green or brown-tinted skin, vine like hair, and leaves, flowers, buds, or mushrooms growing across their bodies. Beneath the skin of an Anthesi head is the skull of a long dead humanoid being, from which they inherit small amounts of memories and knowledge from the owners previous life, as well as their general facial features. Though they continue to grow throughout most of their lives, their heads remain almost the same size throughout their lives, leaving the exceptionally young or old Anthesi with strange proportions. Their eyes contain large, black pupils and irises surrounded by pastel colored sclera, and older Anthesi display bioluminescent patterns of similar colors along their bodies.</p>
+      <h4>History</h4>
+      <p>Anthesi are created when the skull of a dead humanoid is overtaken with plant life, and magically animated. They may be the result of a necromancer's experiments, a powerful druid's magic, or wild magic leaking into an environment.</p>
+      <h4>Anthesi Names</h4>
+      <p>Anthesi do not have their own naming conventions, instead taking on the name of their skull's former owner, or simply accepting any name they are given by others.</p>
+      <h4>Anthesi Traits</h4>
+      <p>Humanoid plants growing over a long dead corpse.</p>
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2.</p>
+      <p class="indent"><strong><em>Age.</em></strong> Anthesi reach maturity after roughly 10 years, and can live for up to about 250 years.</p>
+      <p class="indent"><strong><em>Alignment.</em></strong> Anthesi tend towards neutral alignments, but are influenced by the alignment of their skulls owner.</p>
+      <p class="indent"><strong><em>Size.</em></strong> Anthesi begin life as small creatures, roughly 3 and a half feet tall with disproportionately large heads. However, they continue to grow for most of their lives, so long as they remain healthy. Your size is Small.</p>
+      <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+      <p class="indent"><strong><em>Darkvision.</em></strong> You can see in darkness as if it were dim light, up to a range of 60 ft.</p>
+      <p class="indent"><strong><em>Photosynthesis.</em></strong> You can gain sustenance from sunlight, gaining the equivalent of eating one day worth of food if you spend at least 6 hours of that day in direct sunlight.</p>
+      <p class="indent"><strong><em>Bloom.</em></strong> Healthy Anthesi continue to grow for most of their lives. Whenever you gain a level, roll 1d4. Your height increases by a number of inches equal to this roll, and your weight increases by a number of pounds equal to 4 times this roll. When you reach the 6th level, you become a Medium creature, and your base walking speed becomes 30 feet.</p>
+      <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language of your choice.</p>
+      <p class="indent"><strong><em>Subrace.</em></strong> Anthesi can be grouped into 3 main subraces, based on the type of plant they originate from. Choose one when you pick this race.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Anthesi)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <stat name="innate speed" value="25" bonus="base" level="1" />
+      <stat name="innate speed" value="30" bonus="base" level="6"/>
+      <grant type="Size" id="ID_SIZE_SMALL" level="1" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" level="6" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <select type="Language" name="Language (Anthesi)" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_PHOTOSYNTHESIS" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_BLOOM" />
+      <select type="Sub Race" name="Anthesi Subrace" supports="Anthesi" />
+    </rules>
+  </element>
+
+  <element name="Photosynthesis" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_PHOTOSYNTHESIS">
+		<description>
+			<p>You can gain sustenance from sunlight, gaining the equivalent of eating one day worth of food if you spend at least 6 hours of that day in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You gain the equivalent of eating 1 day worth of food if you spend at least 6 hours off that day in direct sunlight.</description>
+		</sheet>
+	</element>
+
+  <element name="Bloom" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_BLOOM">
+		<description>
+			<p>Healthy Anthesi continue to grow for most of their lives. Whenever you gain a level, roll 1d4. Your height increases by a number of inches equal to this roll, and your weight increases by a number of pounds equal to 4 times this roll. When you reach the 6th level, you become a Medium creature, and your base walking speed becomes 30 feet.</p>
+		</description>
+		<sheet level="1">
+			<description level="1">Whenever you gain a level, roll 1d4. Your height increases by a number of inches equal to this roll, and your weight increases by a number of pounds equal to 4 times this roll. When you reach the 6th level, you become a Medium creature, and your base walking speed becomes 30 feet.</description>
+			<description level="6">Whenever you gain a level, roll 1d4. Your height increases by a number of inches equal to this roll, and your weight increases by a number of pounds equal to 4 times this roll.</description>
+    </sheet>
+	</element>
+
+  <element name="Verdant" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_VERDANT">
+		<supports>Anthesi</supports>
+		<description>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+      <p class="indent"><strong><em>Nature's Step.</em></strong> You can move through difficult terrain caused by plants without penalty.</p>
+      <p class="indent"><strong><em>One with Nature.</em></strong> You know the druidcraft cantrip. Your spellcasting ability for it is Wisdom.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+      <stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Verdant)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_NATURES_STEP" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_ONE_WITH_NATURE" />
+		</rules>
+	</element>
+
+  <element name="Nature's Step" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_NATURES_STEP">
+		<description>
+			<p>You can move through difficult terrain caused by plants without penalty.</p>
+		</description>
+		<sheet>
+			<description>You can move through difficult terrain caused by plants without penalty.</description>
+    </sheet>
+	</element>
+
+  <element name="One with Nature" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_ONE_WITH_NATURE">
+		<description>
+			<p>You know the druidcraft cantrip. Your spellcasting ability for it is Wisdom.</p>
+		</description>
+		<sheet>
+      <description>Your spellcasting ability for the Druidcraft cantrip is Wisdom.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
+    </rules>
+	</element>
+
+  <element name="Aquatic" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_AQUATIC">
+		<supports>Anthesi</supports>
+		<description>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+      <p class="indent"><strong><em>Amphibious.</em></strong> You gain a swimming speed equal to your walking speed, and can breathe underwater.</p>
+      <p class="indent"><strong><em>Slippery.</em></strong> You have advantage on any roll you make to resist being grappled.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+      <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Aquatic)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_AMPHIBIOUS" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_SLIPPERY" />
+		</rules>
+	</element>
+
+  <element name="Amphibious" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_AMPHIBIOUS">
+		<description>
+			<p>You gain a swimming speed equal to your walking speed, and can breathe underwater.</p>
+		</description>
+		<sheet>
+			<description>You gain a swimming speed equal to your walking speed, and can breathe underwater.</description>
+    </sheet>
+    <rules>
+      <stat name="speed:swim" value="speed" bonus="base"/>
+    </rules>
+	</element>
+
+  <element name="Slippery" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_SLIPPERY">
+		<description>
+			<p>You have advantage on any roll you make to resist being grappled.</p>
+		</description>
+		<sheet>
+      <description>You have advantage on any roll you make to resist being grappled.</description>
+    </sheet>
+	</element>
+
+  <element name="Fungal" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_FUNGAL">
+		<supports>Anthesi</supports>
+		<description>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+      <p class="indent"><strong><em>Poison Resistance.</em></strong> You have resistance to poison damage, and immunity to the poisoned condition.</p>
+      <p class="indent"><strong><em>Improved Darkvision.</em></strong> The range of your darkvision is 120 feet, rather than 60.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+      <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Aquatic)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_POISON_RESISTANCE" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_IMPROVED_DARKVISION" />
+		</rules>
+	</element>
+
+  <element name="Poison Resistance" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_POISON_RESISTANCE">
+		<description>
+			<p>You have resistance to poison damage, and immunity to the poisoned condition.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to poison damage, and immunity to the poisoned condition.</description>
+    </sheet>
+	</element>
+
+  <element name="Improved Darkvision" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ANTHESI_IMPROVED_DARKVISION">
+		<description>
+			<p>The range of your darkvision is 120 feet, rather than 60.</p>
+		</description>
+		<sheet>
+      <description>The range of your darkvision is 120 feet, rather than 60.</description>
+    </sheet>
+	</element>
+
+</elements>

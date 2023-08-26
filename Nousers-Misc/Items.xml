@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Ring of Attunement" type="Magic Item" source="Nouser's Misc Homebrew" id="ID_NOUS_NOUS_MAGIC_ITEM_RING_OF_ATTUNEMENT">
+		<description>
+			<p>When you would attune to an item, you may instead attune it to this ring, ignoring all normal requirements for attunement.</p>
+      <p>Only one item can be attuned to the ring, and whoever is wearing the ring is considered as being attuned to the item.</p>
+ 
+      <p>This item can hold up to 4 charges, as an action, you can expend a charge to teleport the item attuned to this ring to anywhere within a 5ft radius of it.</p>
+      <p>This item regains 1d4 charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+
+  <element name="Box of Accounting" type="Magic Item" source="Nouser's Misc Homebrew" id="ID_NOUS_NOUS_MAGIC_ITEM_BOX_OF_ACCOUNTING">
+		<description>
+			<p>This small handheld box can hold a seemingly unlimited amount of copper, silver, gold, and platinum pieces, but no other items.</p>
+      <p>There are four buttons on the box, one of copper, one of silver, one of gold, and one of platinum.</p>
+      <p>Pressing one of the buttons will transmute all pieces inside the box into an equivalent amount of the corresponding type of piece. (E.g. 10 gold pieces turns into 100 silver pieces)</p>
+      <p>Anything that could not be cleanly converted into the corresponding type of piece will remain unchanged. (E.g. 97 silver pieces turns into 9 gold pieces, 7 silver pieces)</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="equippable">false</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+
+</elements>
+  

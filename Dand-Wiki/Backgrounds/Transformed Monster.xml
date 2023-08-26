@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+ <element name="Transformed Monster" type="Background" source="Dand Wiki" id="ID_DAND_BACKGROUND_TRANSFORMED_MONSTER">
+		<description>
+			<p>The ale houses are full of tales of heroes and maiden's and children being magically transformed into monsters - sometimes it happens the other way round. Until recently you weren't like this. You have dim memories of being something else: something bestial, something primal. You are haunted by your past appetites. Dreams wake you in the night: Dreams of hunting through the dark bowers, of ravaging flesh and consuming souls.</p>
+            <p>There is a battle within you, who shall win? What has your life been since your transformation? Have you been treated with kindness or have you been shunned? How will you take to this new life - are you filled with drive to do good or will your past nature return?</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Intimidation, Insight</li>
+				<li><strong>Languages:</strong> One of Infernal, Primordial, or Abyssal</li>
+				<li><strong>Equipment:</strong> Ragged clothes and an unusual bone.</li>
+			</ul>
+			<div element="ID_DAND_BACKGROUND_FEATURE_BETWEEN_TWO_WORLDS" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>All this is new to you and takes a bit of practice. Sometimes the beast will come out.</p>
+		</description>
+		<setters>
+			<set name="short">Religion, Insight</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<select type="Language" name="Language (Transformed Monster)" supports="ID_LANGUAGE_INFERNAL|ID_LANGUAGE_PRIMORDIAL|ID_LANGUAGE_ABYSSAL"/>
+			<grant type="Background Feature" id="ID_DAND_BACKGROUND_FEATURE_BETWEEN_TWO_WORLDS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">Nothing scares me. I've been worse.</item>
+				<item id="2">Working with others is new to me. I'm trying my best to figure it out.</item>
+				<item id="3">I can be skittish and unpredictable.</item>
+				<item id="4">I am meek and mild with a dark heart.</item>
+				<item id="5">I have a conniving and cynical mind.</item>
+				<item id="6">Money and things have little value to me.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Renewal. I will accept this life and try to forget the past. (Any)</item>
+				<item id="2">Adrift. I am out of place - neither one thing nor another. (Neutral)</item>
+				<item id="3">Corrupted. The darkness within draws me back. (Evil)</item>
+				<item id="4">Penance. I 'know' I have done terrible things. (Good)</item>
+				<item id="5">Power. I remember what it was to be powerful. I want to feel that strength again. (Lawful)</item>
+				<item id="6">Survival. I am driven by the simple things; food, shelter and companionship. (Chaotic)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I yearn to return to my previous self.</item>
+				<item id="2">I live in the light to keep back the dark.</item>
+				<item id="3">I need to find out what I was and who changed me.</item>
+				<item id="4">I am beginning to enjoy this new life.</item>
+				<item id="5">I must atone for my previous self.</item>
+				<item id="6">An enemy wants to return me to my old form.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I have rages that I can't control.</item>
+				<item id="2">I often forget my manners.</item>
+				<item id="3">I rely on my feelings rather than my intellect.</item>
+				<item id="4">Humanoid emotions are incomprehensible.</item>
+				<item id="5">I lash out when cornered or surprised.</item>
+				<item id="6">Blood and guts agitate me.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Between Two Worlds" type="Background Feature" source="Dand Wiki" id="ID_DAND_BACKGROUND_FEATURE_BETWEEN_TWO_WORLDS">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Even if the intuition of those around you can't pierce the veil of your secret, they're subconsciously aware of its existence. Mundane creatures are less likely to help you, and more likely to attempt to flee from or harm you, while creatures that are magical in nature are more likely to do the opposite.</p>
+		</description>
+		<sheet alt="Between Two Worlds">
+			<description>Even if the intuition of those around you can't pierce the veil of your secret, they're subconsciously aware of its existence. Mundane creatures are less likely to help you, and more likely to attempt to flee from or harm you, while creatures that are magical in nature are more likely to do the opposite.</description>
+		</sheet>
+	</element>
+
+</elements>
