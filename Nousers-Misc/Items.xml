@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<info>
-  <name>Nouser's Items</name>
-  <update version="0.1">
-    <file name="nouseritems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Nousers-Misc/Items.xml" />
-  </update>
-</info>
-
 <elements>
+
+  <info>
+    <name>Nouser's Items</name>
+    <update version="0.1">
+      <file name="nouseritems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Nousers-Misc/Items.xml" />
+    </update>
+  </info>
 
   <element name="Ring of Attunement" type="Magic Item" source="Nouser's Misc Homebrew" id="ID_NOUS_NOUS_MAGIC_ITEM_RING_OF_ATTUNEMENT">
 		<description>

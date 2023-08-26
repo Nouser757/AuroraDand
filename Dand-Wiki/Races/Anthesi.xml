@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<info>
-  <name>Anthesi</name>
-  <update version="0.1">
-    <file name="Anthesi.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Anthesi.xml" />
-  </update>
-</info>
-
 <elements>
+
+  <info>
+    <name>Anthesi</name>
+    <update version="0.1">
+      <file name="Anthesi.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Anthesi.xml" />
+    </update>
+  </info>
 
   <element name="Anthesi" type="Race" source="Dand Wiki" id="ID_NOUS_DAND_RACE_ANTHESI">
     <description>
