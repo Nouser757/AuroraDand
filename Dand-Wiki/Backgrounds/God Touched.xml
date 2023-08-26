@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 
-    <element name="God Touched" type="Background" source="Dand Wiki" id="ID_DAND_BACKGROUND_GOD_TOUCHED">
+    <element name="God Touched" type="Background" source="Dand Wiki" id="ID_NOUS_DAND_BACKGROUND_GOD_TOUCHED">
 		<description>
 			<p>A person who is god touched is someone who has had some form of interaction with a god or goddess that left them in their current state. As a reward or something cruel, god touched people are gifted in situations regarding the mind and are given a clearer way of thinking about the world around them.</p>
 			<ul class="unstyled">
@@ -9,8 +9,8 @@
 				<li><strong>Languages:</strong> Celestial and one other of your choice.</li>
 				<li><strong>Equipment:</strong> A holy book relating to the god/goddess who affected you, a history book about the gods, a notebook and quill, a set of traveler's clothes, and a pouch containing 15 GP</li>
 			</ul>
-			<div element="ID_DAND_BACKGROUND_FEATURE_PROPHET" />
-			<div element="ID_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS" />
+			<div element="ID_NOUS_DAND_BACKGROUND_FEATURE_PROPHET" />
+			<div element="ID_NOUS_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS" />
 		</description>
 		<setters>
 			<set name="short">Religion, Insight</set>
@@ -21,7 +21,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<select type="Language" name="Language (God Touched)" />
 			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
-			<grant type="Background Feature" id="ID_DAND_BACKGROUND_FEATURE_PROPHET" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<grant type="Background Feature" id="ID_NOUS_DAND_BACKGROUND_FEATURE_PROPHET" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">Constant visions of how I will die show me how to avoid it. It can get unbearable.</item>
@@ -60,7 +60,7 @@
 		</rules>
 	</element>
 
-	<element name="Feature: Prophet" type="Background Feature" source="Dand Wiki" id="ID_DAND_BACKGROUND_FEATURE_PROPHET">
+	<element name="Feature: Prophet" type="Background Feature" source="Dand Wiki" id="ID_NOUS_DAND_BACKGROUND_FEATURE_PROPHET">
 		<supports>Background Feature</supports>
 		<description>
 			<p>Directly interacting with a god is no common occurrence, and has left you being the talk of the churches. This has left you with many friends as well as enemies. Followers of the god or goddess who has interacted with you will take you in as needed, and even possibly provide offerings. However, those who resent the god or goddess may turn you away, or even respond to you with hostility.</p>
@@ -70,8 +70,8 @@
 		</sheet>
 	</element>
 
-    <element name="Variant Feature: Guidance of the Gods" type="Background Feature" source="Dand Wiki" id="ID_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS">
-		<requirements>ID_DAND_BACKGROUND_GOD_TOUCHED</requirements>	
+    <element name="Variant Feature: Guidance of the Gods" type="Background Feature" source="Dand Wiki" id="ID_NOUS_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS">
+		<requirements>ID_NOUS_DAND_BACKGROUND_GOD_TOUCHED</requirements>	
 		<supports>Background Feature, Optional Background Feature</supports>
 		<description>
 			<p>While you may not know what your purpose in life is, the god or goddess who directly affected you does and has a plan for you. When you are feeling lost, your deity shows you what you are needing to do, be it through visions, dreams, or in-person interaction.</p>
