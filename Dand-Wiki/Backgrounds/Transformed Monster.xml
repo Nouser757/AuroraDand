@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<info>
+  <name>Transformed Monster</name>
+  <update version="0.1">
+    <file name="transformed monster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/Transformed%20Monster.xml" />
+  </update>
+</info>
+
 <elements>
 
  <element name="Transformed Monster" type="Background" source="Dand Wiki" id="ID_NOUS_DAND_BACKGROUND_TRANSFORMED_MONSTER">

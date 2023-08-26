@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<info>
+  <name>God Touched</name>
+  <update version="0.1">
+    <file name="god touched.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/God%20Touched.xml" />
+  </update>
+</info>
+
 <elements>
 
     <element name="God Touched" type="Background" source="Dand Wiki" id="ID_NOUS_DAND_BACKGROUND_GOD_TOUCHED">
