@@ -14,8 +14,8 @@
 	<!-- classes -->
 	
 	<!-- backgrounds -->
-	<file name="god touched.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/God%20Touched.xml" />
-	<file name="transformed monster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/Transformed%20Monster.xml" />
+	<file name="god-touched.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/God-Touched.xml" />
+	<file name="transformed-monster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/Transformed-Monster.xml" />
 	
 	<!-- items -->
 	<file name="nouseritems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Nousers-Misc/Items.xml" />
