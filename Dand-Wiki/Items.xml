@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <info>
+    <name>Dand Items</name>
+    <update version="0.1">
+      <file name="danditems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Items.xml" />
+    </update>
+  </info>
+
+  <element name="Foxy Ring" type="Magic Item" source="Dand Wiki" id="ID_NOUS_DAND_MAGIC_ITEM_FOXY_RING">
+		<description>
+      <p>A small red ring with a white crystal set in it, grants +10ft of walking speed and +2 charisma when worn. Name appears as "Ring of Charisma" until curse is activated.</p>
+
+      <p><em>Curse:</em> If PC takes a short or long rest with this ring equipped they must make a DC 11 Constitution saving throw, upon success nothing happens. If PC fails saving throw they grow fox ears and tail, and now find meat irresistible. Removing ring does not remove the curse but does remove the bonuses, curse can be removed from the ring with remove curse but the fox tail and ears (as well as the desire for meat) will remain until lesser restoration is cast on the PC. After the curse is removed from the Foxy Ring and PC, the PC can attune to the ring in order to be able to gain the tail and ears again or remove them at will at the cost of one action.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+    <rules>
+      <stat name="charisma" value="2" />
+      <stat name="speed" value="10" />
+    </rules>
+	</element>
+
+  <element name="Identified Cube" type="Magic Item" source="Dand Wiki" id="ID_NOUS_DAND_MAGIC_ITEM_IDENTIFIED_CUBE">
+		<description>
+      <p>The <em>Identified Cube</em> is a small, metal cube, about 1 inch on each side. Identifying the Cube always succeeds, but does not reveal the bonding property unless the effect is capable of correctly identifying cursed items. Additionally, any attempt to identify a magic item within 100 feet of the Identified Cube identifies the Cube instead. Identifying the Cube causes it to attune to the caster, returning to their possession if discarded (usually to some hard-to-notice location, such as the inside pocket of a backpack) as long as the attunement lasts. This attunement does not count against the number of items a character can have attuned. A character remains attuned to this item until they die, or another character becomes attuned to the Cube.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon (special)</set>
+			<set name="equippable">false</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+
+  <element name="Winterweiss" type="Magic Item" source="Dand Wiki" id="ID_NOUS_DAND_MAGIC_WEAPON_WINTERWEISS">
+		<description>
+      <p><em>Winterwiess</em> is an exotic rapier crafted from pure, platinum crystal. Icy-blue gems are embedded into the weapon's guard, and it constantly feels cold to the touch.</p>
+			<p>You gain a +2 bonus to attack and damage rolls made with <em>Winterwiess</em>. It has the following properties.</p>
+      <br />
+			<p>When you hit with an attack using <em>Winterwiess</em>, the target takes an extra 1d6 cold damage. In addition, while you hold <em>Winterwiess</em>, you have resistance to fire damage.</p>
+      <p>In freezing temperatures, <em>Winterwiess</em> sheds bright light in a 10-foot radius and dim light for additional 10 feet.</p>
+      <p>When you draw <em>Winterwiess</em>, you can extinguish all non-magical flames within 30 feet of you. This property can be used no more than once per hour.</p>
+      <br />
+			<p><em>Frost Missiles.</em> During your turn in combat, you may command <em>Winterweiss</em> to cast the spell <em>magic missile</em>, as if you were using a 6th-level spell slot. The darts created by <em>Winterweiss</em> deal cold damage instead of force. Once cast, this spell does not recharge until the next dawn.</p>
+			<br />
+			<p><em>Frigid Construct.</em> You may use your action to focus <em>Winterweiss'</em> inner power on a creature of your choice that you can see with a CR of 3 or lower. When the image of that creature is firmly set in your mind, <em>Winterweiss</em> will create a crude simulacrum of your target made entirely out of ice at a space of your choice that is directly adjacent to you. You may then give whatever commands you wish to your frigid construct as a bonus action on your turn. The construct understands the commands of its master but cannot speak, and it otherwise possesses the exact same statblock, features and abilities as the creature it is mimicking. Only one frigid construct can be created each day, and it will stay with you until dawn, at which time it disintegrates into inert shards of ice. You may dismiss the constrict early as a bonus action at any time. Once this property is used, you may not create another frigid construct until the next dawn.</p>
+			<br />
+			<p><em>Arachnophobia.</em> <em> Winterweiss</em> secretly has a crippling fear of spiders, and as a result the weapon will literally pull back in its wielder's hand whenever hostile spiders are encountered. While wielding <em>Winterweiss</em>, your weapon attacks are made at disadvantage against spiders and driders.</p>
+			<br />
+			<p><em>Sentience.</em> <em> Winterweiss</em> is a sentient lawful neutral weapon with an Intelligence of 14 (+2), a Wisdom of 12 (+1), and a Charisma of 16 (+3). It has hearing and darkvision out to a range of 90 feet. The weapon can speak, read, and understand Common, and can communicate with its wielder telepathically. While you are attuned to it, <em>Winterweiss</em> also understands every language you know.</p>
+			<br />
+			<p><em>Personality.</em> <em> Winterweiss</em> possesses the soul of a young, teenage heiress from a past age, presumably once a member of a long-forgotten noble family. <em>Winterweiss</em> is often insistent on following rules and laws, and will typically favor actions that run parallel to that predisposition. She is very picky in terms of who it is willing to attune with. Stick it in the hands of an inexperienced rapier-user, and she will waste no time in calling you a dunce, and berating you for your amateurish lack of form.</p>
+			<br />
+			<p><em>Winterweiss</em> has a somewhat bossy attitude in general, though slightly less so towards its attuned wielder. She insists on being cleaned on a regular basis, as she absolutely hates being left dirty for too long.</p>
+			<p>In spite of its usual attitude, <em>Winterweiss</em> is most of all an attention-seeker. Her ultimate goal is to accrue glory and recognition for herself and her wielder whenever the opportunity presents itself, and it will actively encourage her wielder to either boast about his or her recent accomplishments, or to praise its craftsmanship as the primary contributor to triumphing over a particularly harrowing obstacle. If <em>Winterweiss</em> goes three days or more without having these desires met, a conflict between it and its wielder occurs at the next sunset.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="attunement" addition="by a creature of neutral alignment">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
+
+	<element name="Imrae" type="Magic Item" source="Dand Wiki" id="ID_NOUS_DAND_MAGIC_ITEM_IMRAE">
+		<description>
+      <p><em>Imrae</em> is an ovular black opal of such uncommon darkness that it can be transfixing, and a passing observer might find themselves staring at it without even realizing. Tendrils of purple reach and writhe across and through the stone, seeming to move like living ink dropped in liquid...but so slowly you're not sure if it's moving at all. Most strangely, however, is that the smarter someone is, the more they might find themselves drawn to this stone, with a character of 16 intelligence or higher being unable to stop themselves from reaching for it. Characters with an intelligence of 18 or higher will do anything in their power to possess the stone, including violating their moral alignment to do so. If <em>Imrae</em> is already attuned, the stone will stop drawing others to it. Once <em>Imrae</em> is attuned, the user will do anything to keep it close to them until they are subsumed entirely.</p>
+			<br />
+			<p><em>Champion's Choosing.</em> Any spellcaster can attempt to attune themselves to <em>Imrae</em>, but the DM will decide if she accepts or rejects the spellcaster. If she accepts them, <em>Imrae</em> becomes the spellcaster's arcane focus and begins to take over their mind and personality. If she rejects them, she does 2d6 necrotic damage and steals all memory of how they obtained the focus, as well as easily reachable magical knowledge. However, they will no longer be drawn by the compulsion of the stone. If a rejected spellcaster tries three or more times to attune to <em>Imrae</em>, she will begin eating their spells slots on each try, adding 1d6 of necrotic damage, stacking, as well.</p>
+			<br />
+			<p><em>Consumption.</em> Once attuned, <em>Imrae</em> begins to take over every aspects of the wielder's personality, starting with a hunger for knowledge, especially arcane, and will begin to make the user favor more necromantic and darker fields of magic. The wielder may become erratic, suspicious, and will begin to conduct arcane research with the greatest possible secrecy. The further the wielder goes in study of aberrations, necromancy, and the other dark arts <em>Imrae</em> will push them to, the more they become lost and <em>Imrae</em> will take over, until the wielder is no more than a host for the sentience of <em>Imrae</em> herself.</p>
+			<br />
+			<p><em>Arcane Addiction.</em> If a third party attempts to separate the wielder from the focus, the wielder will become increasingly violent until they begin attacking anyone and anything they see with no concern of physical safety. If the process is caught early enough and the wielder can be restrained for the duration of the madness, reason can be brought back to the spellcaster. The attunement would be removed automatically, and as long as the spellcaster no longer sees or comes into contact with <em>Imrae</em> then the process can stay reversed. However, if the spellcaster once more sees <em>Imrae</em> they will do anything in their power to get to it - upon touching it, the process is resumed and in fact sped up.</p>
+			<br />
+			<p><em>Sentience.</em> <em>Imrae</em> is Chaotic Evil sentient arcane focus. Intelligence 24 (+7), Wisdom 18 (+4), Charisma 20 (+5). <em>Imrae</em> has darkvision and hearing with a range of 60 ft. She can speak Common, Elvish, Abyssal, Infernal, and Deep Speech, as well as any languages her user knows. She can also communicate telepathically with her user.</p>
+			<br />
+			<p><em>Personality.</em> <em>Imrae</em> is incredibly secretive and distrustful of magic users, especially any around her wielder. She will hide her research and existence from them at every possible turn. She has a deep hunger for knowledge, especially arcane knowledge, and will begin pushing her user in that direction early on, pushing them into more and more dangerous experiments. Her choice of wielders tends to focus on a shared drive of knowledge, as she tends to seek out magic users with high intelligence. She has no time or care for morality or laws, and can sometimes have something of a cruel streak.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type" addition="Arcane Focus">Wondrous Item</set>
+			<set name="rarity">Lengdary</set>
+			<set name="equippable">false</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+		</setters>
+	</element>
+
+</elements>
+  

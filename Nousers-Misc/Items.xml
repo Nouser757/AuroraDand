@@ -3,7 +3,7 @@
 
   <info>
     <name>Nouser's Items</name>
-    <update version="0.1">
+    <update version="0.2">
       <file name="nouseritems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Nousers-Misc/Items.xml" />
     </update>
   </info>
@@ -12,7 +12,7 @@
 		<description>
 			<p>When you would attune to an item, you may instead attune it to this ring, ignoring all normal requirements for attunement.</p>
       <p>Only one item can be attuned to the ring, and whoever is wearing the ring is considered as being attuned to the item.</p>
- 
+			<br />
       <p>This item can hold up to 4 charges, as an action, you can expend a charge to teleport the item attuned to this ring to anywhere within a 5ft radius of it.</p>
       <p>This item regains 1d4 charges daily at dawn.</p>
 		</description>
@@ -39,6 +39,32 @@
 			<set name="rarity">Common</set>
 			<set name="equippable">false</set>
 			<set name="attunement">false</set>
+		</setters>
+	</element>
+
+	<element name="Key of Mimicry" type="Magic Item" source="Nouser's Misc Homebrew" id="ID_NOUS_NOUS_MAGIC_ITEM_KEY_OF_MIMICRY">
+		<description>
+			<p>A small key, decorated with teeth, that can unlock any non-magical lock.</p>
+			<p>However, whenever this key is used to unlock something, you must make an Arcana check and consult the following table: </p>
+			<table>
+				<thread>
+					<tr><td>Result</td><td>Effect</td></tr>
+				</thread>
+				<tr><td>1 or less</td><td>Unlocked object, and this key, turn into hostile mimics.</td></tr>
+				<tr><td>2-9</td><td>Unlocked object turns into a hostile mimic.</td></tr>
+				<tr><td>10-19</td><td>Object is unlocked with no other effect.</td></tr>
+				<tr><td>20 or more</td><td>Unlocked object turns into a mimic that can understand (but not speak) Common, and follows any commands that the person attuned to this key gives it.</td></tr>
+			</table>
+			<br />
+			<p>Mimics created by this effect cannot be healed, or transform in any way.</p>
+			<p>Upon death, a mimic created by this effect turns back in the original object, in the same state and position it was in after being unlocked, but before being transformed.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type" addition="Key">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="equippable">false</set>
+			<set name="attunement">true</set>
 		</setters>
 	</element>
 

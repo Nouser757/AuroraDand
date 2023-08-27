@@ -3,7 +3,7 @@
 
   <info>
     <name>Anthesi</name>
-    <update version="0.1">
+    <update version="0.2">
       <file name="Anthesi.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Anthesi.xml" />
     </update>
   </info>
@@ -67,7 +67,7 @@
     </sheet>
 	</element>
 
-  <element name="Verdant" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_VERDANT">
+  <element name="Verdant Anthesi" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_VERDANT">
 		<supports>Anthesi</supports>
 		<description>
 			<p></p>
@@ -105,7 +105,7 @@
     </rules>
 	</element>
 
-  <element name="Aquatic" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_AQUATIC">
+  <element name="Aquatic Anthesi" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_AQUATIC">
 		<supports>Anthesi</supports>
 		<description>
 			<p></p>
@@ -143,7 +143,7 @@
     </sheet>
 	</element>
 
-  <element name="Fungal" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_FUNGAL">
+  <element name="Fungal Anthesi" type="Sub Race" source="Dand Wiki" id="ID_NOUS_DAND_SUB_RACE_ANTHESI_FUNGAL">
 		<supports>Anthesi</supports>
 		<description>
 			<p></p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.2">
+    <update version="0.3">
       <file name="nouser.index" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/nouser.index" />
     </update>
   </info>
@@ -19,6 +19,7 @@
 	
 	<!-- items -->
 	<file name="nouseritems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Nousers-Misc/Items.xml" />
+	<file name="danditems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Items.xml" />
 	
 	<!-- spells -->
   </files>
