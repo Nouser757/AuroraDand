@@ -3,8 +3,8 @@
 
   <info>
     <name>Anthesi</name>
-    <update version="0.2">
-      <file name="Anthesi.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Anthesi.xml" />
+    <update version="0.3">
+      <file name="anthesi.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Anthesi.xml" />
     </update>
   </info>
 
@@ -127,7 +127,7 @@
 			<p>You gain a swimming speed equal to your walking speed, and can breathe underwater.</p>
 		</description>
 		<sheet>
-			<description>You gain a swimming speed equal to your walking speed, and can breathe underwater.</description>
+			<description>You gain a swimming speed equal to {{speed}}ft, and can breathe underwater.</description>
     </sheet>
     <rules>
       <stat name="speed:swim" value="speed" bonus="base"/>

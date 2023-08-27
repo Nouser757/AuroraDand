@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <info>
+    <name>Arachne</name>
+    <update version="0.1">
+      <file name="arachne.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Arachne.xml" />
+    </update>
+  </info>
+
+  <element name="Arachne" type="Race" source="Dand Wiki" id="ID_NOUS_DAND_RACE_ARACHNE">
+    <description>
+      <p class="flavor">Pure-bred arachne are born between two arachne parents or a humanoid being graced/cursed with the power of a spider goddess, while the more commonly found “hybrid” Arachne are born between an Arachne and a non-Arachne humanoid. Arachne are powerful warriors and agile hunters, capable of operating in a wide range of terrain but a fairly narrow climate. Their domineering presence on the battlefield is enough to intimidate the hardiest of warriors, and they're no stranger to a violent bloodbath. An Arachne is the bane of unwary travellers and fledgeling adventurers. Others are vain but flattering, making their names as diplomats or aristocrats. They are an ally's greatest asset and an enemy's worst nightmare.</p>
+      <h4>Physical Description</h4>
+      <p>Arachne are half-humanoid spider hybrids, with their lower body resembling that of a large eight-legged spider, belonging to their arachne parent, and the upper body resembling their non-Arachne parent, whether they be human, elf, dwarf, orc, or another. Arachne stand on at roughly 7 feet tall on average. Their spider's half retains the attributes of the species of spider they belong to. Commonly found arachne sub-species includes wolf spiders, jumping spiders, and widow spiders. Arachne are much more likely to be female at birth, giving the impression that all arachne are female when in reality male arachne are simply much rarer.</p>
+      <h4>Society</h4>
+      <p>Most arachne are solitary by nature and prefer living on their own, whether on the fringes of the city or the depths of the wilderness. Most arachne are seen with fear and disgust and have become accustomed to hostile met by strangers and travellers, developing a darker, more cynical world view. On the rare occasion, an arachne will be met with hospitality and will live with other races in small villages serving as wilderness guides, weavers, builders, and alchemists.</p>
+      <h4>Arachne Names</h4>
+      <p>Arachne claim a wide variety of names, usually pertaining to the non-arachne parent they belonged to, while the pure-bred arachne usually refer to each other in their arachnid tongue, comprised of soft clicks and chirps, with no actual meaning in Common. Pure-bred arachne are thus usually given nicknames by the other races in common.</p>
+      <h4>Arachne Traits</h4>
+      <p><b>Design Note: It is highly recommended that you use the <a href="https://www.dandwiki.com/wiki/Large_Player_Characters_(5e_Variant_Rule)">Large Player Characters (5e Variant Rule)</a> for balance purposes.</b></p>
+      <p>Creatures with the upper torso of a humanoid and lower torso of a spider.</p>
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>
+      <p class="indent"><strong><em>Age.</em></strong> Arachne, much like spiders, mature quickly, becoming adults at the age of 2 or 3 and having lifespans comparable to humans.</p>
+      <p class="indent"><strong><em>Alignment.</em></strong> Arachne don't tend toward any particular alignment. The best and the worst are found among them.</p>
+      <p class="indent"><strong><em>Size.</em></strong> Arachne can be up to 7-8 feet tall and almost as wide. Your size is Large.</p>
+      <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+      <p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray..</p>
+      <p class="indent"><strong><em>Spider Half.</em></strong> Even though your size is Large, your upper, humanoid torso is still of similar scale to that of other humanoid races. You count as Medium for the purposes of wielding weapons. In addition, due to your lower body you cannot make use of mounts.</p>
+      <p class="indent"><strong><em>Arachne's Lore.</em></strong> You gain proficiency in one skill of your choice, from: Acrobatics, Intimidation, Perception, Stealth, or Survival.</p>
+      <p class="indent"><strong><em>Monstrous Nature.</em></strong> Your creature type is considered to be both humanoid and monstrosity.</p>
+      <p class="indent"><strong><em>Spider Walk.</em></strong> You have a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additionally, you ignore movement restrictions caused by webbing.</p>
+      <p class="indent"><strong><em>Webbing.</em></strong> You can cast the spell web a number of times equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. You regain all uses when you finish a long rest.</p>
+      <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language of your choice.</p>
+      <p class="indent"><strong><em>Subrace.</em></strong> Anthesi can be grouped into 3 main subraces, based on the type of plant they originate from. Choose one when you pick this race.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Arachne)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Arachne)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_LARGE" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <select type="Language" name="Customized Language" number="2" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_SPIDER_HALF" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_LORE" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_MONSTROUS_NATURE" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_SPIDER_WALK" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_WEBBING" />
+    </rules>
+  </element>
+
+  <element name="Spider Half" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_SPIDER_HALF">
+		<description>
+			<p>Even though your size is Large, your upper, humanoid torso is still of similar scale to that of other humanoid races. You count as Medium for the purposes of wielding weapons. In addition, due to your lower body you cannot make use of mounts.</p>
+		</description>
+		<sheet>
+			<description>You count as Medium for the purposes of wielding weapons. In addition, due to your lower body you cannot make use of mounts.</description>
+		</sheet>
+	</element>
+
+  <element name="Arachne's Lore" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_LORE">
+		<description>
+			<p>You gain proficiency in one skill of your choice, from: Acrobatics, Intimidation, Perception, Stealth, or Survival.</p>
+		</description>
+		<sheet display="false" />
+    <rules>
+      <select type="Proficiency" name="Proficiency (Arachne)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" />
+    </rules>
+	</element>
+
+  <element name="Monstrous Nature" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_MONSTROUS_NATURE">
+		<description>
+			<p>Your creature type is considered to be both humanoid and monstrosity.</p>
+		</description>
+		<sheet>
+			<description>Your creature type is considered to be both humanoid and monstrosity.</description>
+		</sheet>
+	</element>
+
+  <element name="Spider Walk" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_SPIDER_WALK">
+		<description>
+			<p>You have a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additionally, you ignore movement restrictions caused by webbing.</p>
+		</description>
+		<sheet>
+			<description>You have a climbing speed equal to {{speed}}ft. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Additionally, you ignore movement restrictions caused by webbing..</description>
+		</sheet>
+    <rules>
+      <stat name="speed:climb" value="speed" bonus="base"/>
+    </rules>
+	</element>
+
+  <element name="Webbing" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_ARACHNE_WEBBING">
+		<description>
+			<p>You can cast the spell web a number of times equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. You regain all uses when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You can cast the spell "web" {{proficiency}} times. Wisdom is your spellcasting ability for this spell. You regain all uses when you finish a long rest.</description>
+		</sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_WEB" />
+    </rules>
+	</element>
+
+</elements>
