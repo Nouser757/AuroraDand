@@ -3,7 +3,7 @@
 
   <info>
     <name>Nouser's Items</name>
-    <update version="0.3">
+    <update version="0.4">
       <file name="nouseritems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Nousers-Misc/Items.xml" />
     </update>
   </info>
@@ -70,10 +70,13 @@
 	<element name="Ashen Tattoo" type="Magic Item" source="Nouser's Misc Homebrew" id="ID_NOUSE_NOUSE_MAGIC_ITEM_ASHEN_TATTOO">
 		<description>
 			<p>Produced by a special needle, this magic tattoo features firey imagery, and uses ink that glows brightly.</p>
+			<br />
 			<p class="indent"><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
-			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p>If your attunement to the tattoo ends, the tattoo vanishes.</p>
+			<br />
+			<br />
 			<p class="indent"><strong><em>Rebirth.</em></strong> One hour after the death of the wearer, if they are still dead, they will be magically revived at their current location, with max HP and 1 exhaustion, all other resources are in the same state they were in just before death.
-Upon revival, the wearer will revive with a scar based on how they died, the severity of the scar is based on how many times the wearer has been revived with this tattoo.</p>
+Upon revival, the wearer will revive with a scar based on how they died, the severity of the scar is based on how many times the wearer has been revived with this tattoo:</p>
 			<table>
 				<thread>
 					<tr><td>Revival</td><td>Scar</td></tr>
@@ -81,8 +84,11 @@ Upon revival, the wearer will revive with a scar based on how they died, the sev
 				<tr><td>First</td><td>Small scar (e.g. a healed cut around the neck, or singed hair)</td></tr>
 				<tr><td>Second</td><td>Medium scar (e.g. a limp, or a damaged eye)</td></tr>
 				<tr><td>Third</td><td>Large scar (e.g. a missing limb, or being unable to walk)</td></tr>
-			<p>A scar inflicted by this tattoo can only be healed using Greater Restoration, or Wish
-With every revival the tattoo either shrinks a little or glows less, and after the third revival it entirely disappears. Any scars inflicted remain.</p>
+			</table>
+			<p>A scar inflicted by this tattoo can only be healed using Greater Restoration, or Wish.</p>
+			<p>With every revival the tattoo either shrinks a little or glows less, and after the third revival it entirely disappears. Any scars inflicted remain.</p>
+			<br />
+			<br />
 			<p class="indent"><strong><em>Curse.</em></strong> This tattoo can only be removed with a Remove Curse spell (if the wearer is willing), and is entirely destroyed once removed. Any scars inflicted remain.</p>
 		</description>
 		<setters>

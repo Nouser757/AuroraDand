@@ -3,7 +3,7 @@
 
 	<info>
 		<name>Shadow</name>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="shadow.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/Shadow.xml" />
 		</update>
 	</info>
@@ -32,7 +32,7 @@ If however, you are ever to actually find your normal self, you are to torment t
       <select type="Proficiency" name="Skill Proficiency (Shadow)" number="2" supports="Skill" />
       <select type="Proficiency" name="Tool Proficiency (Shadow)" supports="Tool" />
 			<select type="Language" name="Language (Shadow)" supports="Standard||Exotic" />
-			<grant type="Background Feature" id="ID_NOUS_DAND_BACKGROUND_FEATURE_HUMANITYS_LOWESTT" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<grant type="Background Feature" id="ID_NOUS_DAND_BACKGROUND_FEATURE_HUMANITYS_LOWEST" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">My job over all. Whatever I am good at, I'm good at that. It doesn't matter if someone is better at it, me being good at it is good enough for me.</item>
@@ -68,6 +68,7 @@ If however, you are ever to actually find your normal self, you are to torment t
 				<item id="5">I'm an blunt loudmouth and it tends to get me in trouble.</item>
 				<item id="6">There's something I have done that I dislike myself for.</item>
 			</select>
+    </rules>
 	</element>
 
 	<element name="Feature: Humanity's Lowest" type="Background Feature" source="Dand Wiki" id="ID_NOUS_DAND_BACKGROUND_FEATURE_HUMANITYS_LOWEST">
@@ -75,7 +76,7 @@ If however, you are ever to actually find your normal self, you are to torment t
 		<description>
 			<p>You represent the true self of who you are. No lies, deceptions, or convolutions to hide the way you really think and feel. Your actions are as such too. However, this makes you keenly aware to the behavior of others as well, and you are able to tell people's alignments after speaking to them yourself.</p>
 		</description>
-		<sheet alt="Prophet">
+		<sheet alt="Humanity's Lowest">
 			<description>You represent the true self of who you are. No lies, deceptions, or convolutions to hide the way you really think and feel. Your actions are as such too. However, this makes you keenly aware to the behavior of others as well, and you are able to tell people's alignments after speaking to them yourself.</description>
 		</sheet>
 	</element>
