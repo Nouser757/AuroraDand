@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<info>
+		<name>Shadow</name>
+		<update version="0.1">
+			<file name="shadow.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/Shadow.xml" />
+		</update>
+	</info>
+
+    <element name="Shadow" type="Background" source="Dand Wiki" id="ID_NOUS_DAND_BACKGROUND_SHADOW">
+		<description>
+			<p>"Shadows are the lower parts of the psyche everyone has... Suppressed human thoughts given physical form. When people are unable to face their darker selves, they break loose, free from all control. But sometimes, humans with special awareness can tame their Shadows... Those are Persona-users."
+
+However, not everyone is lucky enough to become a Persona-user.
+Shadows are born from humanoids, and share their emotions, which are mostly negative. These shadow selves represent the worst aspects of who they came from, whether it be teacher or highschooler, hero or horror, the shadow version of themself will always represent their worst and most atrocious qualities. And be blunt and straightforward with it along the way. If you choose to become a shadow, there will be some things that happen to your character. First, your eyes become yellow. Second, due to you lack of understanding as to why creatures keep secrets, you have permanent disadvantage to deception checks. Third, the actual you exists somewhere, someplace. But you are essentially another entity, that only shares appearance, voice, and the worse qualities of.
+
+If however, you are ever to actually find your normal self, you are to torment them and essentially chastise them for every single action and behavior that isn't acceptable that they've ever done. This may sound extreme, but some aspects of us are truly despicable if you ever come to think about it. Not only that, you being the blunt and worse version of them must reveal that you are the same person. If they accept that you are, you torment them slightly less. If they deny you, you must fight them.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Two of your choice.</li>
+        <li><strong>Tool Proficiencies:</strong> One of your choice.</li>
+				<li><strong>Languages:</strong> One of your choice.</li>
+				<li><strong>Equipment:</strong> A set of common clothes, a lavish outfit, and a trinket highly regarded by your normal self.</li>
+			</ul>
+			<div element="ID_NOUS_DAND_BACKGROUND_FEATURE_HUMANITYS_LOWEST" />
+		</description>
+		<setters>
+			<set name="short">2 skills, 1 tool, 1 language</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+      <select type="Proficiency" name="Skill Proficiency (Shadow)" number="2" supports="Skill" />
+      <select type="Proficiency" name="Tool Proficiency (Shadow)" supports="Tool" />
+			<select type="Language" name="Language (Shadow)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_NOUS_DAND_BACKGROUND_FEATURE_HUMANITYS_LOWESTT" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">My job over all. Whatever I am good at, I'm good at that. It doesn't matter if someone is better at it, me being good at it is good enough for me.</item>
+				<item id="2">I consider myself a comedian. To me, my jokes are funny. And I enjoy cracking the occasional one too.</item>
+				<item id="3">I prefer to spend my downtime studying and enriching myself.</item>
+				<item id="4">Even if I am a semi-mythical creature of confusing origin, I still need to eat, and very much enjoy doing so.</item>
+				<item id="5">Celebrating a job well done is something I just have to do.</item>
+				<item id="6">I'm perfectly happy showing someone up. I think it's entertaining.</item>
+				<item id="7">I have a part of my routine I always follow, and will see to continue following.</item>
+				<item id="8">I'm not sociable and usually dislike interaction.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Monarch. I'm above all others! With this power, I reign supreme! (Evil)</item>
+				<item id="2">Thief. I'll steal the truth of those who hide behind masks! (Good)</item>
+				<item id="3">Cognition. The world is the way I perceive it. No more, no less. (Lawful)</item>
+				<item id="4">Liberation. I'll mold the world into the one I want. (Chaotic)</item>
+				<item id="5">Shadow. This form is only one facet of me. I am who I am, and thus I shall be. (Neutral)</item>
+				<item id="6">Rebellion. I'll fight back against those who keep me in chains! (Any)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I trust none, other people are a waste of time.</item>
+				<item id="2">There's someone who I fight for, besides myself of course.</item>
+				<item id="3">My team members and friends make much more possible, I trust them well.</item>
+				<item id="4">Someone made my life a living hell. I'm going to make them pay for my misery.</item>
+				<item id="5">I despise my actual self and the actions they have done. But, I have a strange sympathy for other people, as if out of spite...</item>
+				<item id="6">I have someone I look up to. They keep me motivated to further my goals.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I can't say no to a valuable treasure.</item>
+				<item id="2">Confidence is something I have in spades, often to my detriment.</item>
+				<item id="3">There are other passions that distract my mind and heart.</item>
+				<item id="4">I have a dark secret that I'll gladly tell anybody.</item>
+				<item id="5">I'm an blunt loudmouth and it tends to get me in trouble.</item>
+				<item id="6">There's something I have done that I dislike myself for.</item>
+			</select>
+	</element>
+
+	<element name="Feature: Humanity's Lowest" type="Background Feature" source="Dand Wiki" id="ID_NOUS_DAND_BACKGROUND_FEATURE_HUMANITYS_LOWEST">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You represent the true self of who you are. No lies, deceptions, or convolutions to hide the way you really think and feel. Your actions are as such too. However, this makes you keenly aware to the behavior of others as well, and you are able to tell people's alignments after speaking to them yourself.</p>
+		</description>
+		<sheet alt="Prophet">
+			<description>You represent the true self of who you are. No lies, deceptions, or convolutions to hide the way you really think and feel. Your actions are as such too. However, this makes you keenly aware to the behavior of others as well, and you are able to tell people's alignments after speaking to them yourself.</description>
+		</sheet>
+	</element>
+
+</elements>
+    

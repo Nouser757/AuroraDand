@@ -3,7 +3,7 @@
 
 	<info>
 		<name>God Touched</name>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="god-touched.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/God-Touched.xml" />
 		</update>
 	</info>
@@ -20,7 +20,7 @@
 			<div element="ID_NOUS_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS" />
 		</description>
 		<setters>
-			<set name="short">Religion, Insight</set>
+			<set name="short">Religion, Insight, Celestial, One other language</set>
 		</setters>
 		<sheet display="false" />
 		<rules>
@@ -28,8 +28,8 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<select type="Language" name="Language (God Touched)" />
 			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
-			<grant type="Background Feature" id="ID_NOUS_DAND_BACKGROUND_FEATURE_PROPHET" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
-			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<grant type="Background Feature" id="ID_NOUS_DAND_BACKGROUND_FEATURE_PROPHET" requirements="!ID_NOUS_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS,!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Variant Feature" supports="Background Feature, Godtouched || Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">Constant visions of how I will die show me how to avoid it. It can get unbearable.</item>
 				<item id="2">Despite being a favored of the gods, I am no better than anyone else.</item>
@@ -77,9 +77,8 @@
 		</sheet>
 	</element>
 
-    <element name="Variant Feature: Guidance of the Gods" type="Background Feature" source="Dand Wiki" id="ID_NOUS_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS">
-		<requirements>ID_NOUS_DAND_BACKGROUND_GOD_TOUCHED</requirements>	
-		<supports>Background Feature, Optional Background Feature</supports>
+  <element name="Variant Feature: Guidance of the Gods" type="Background Feature" source="Dand Wiki" id="ID_NOUS_DAND_VARIANT_FEATURE_GOD_TOUCHED_GUIDANCE_OF_THE_GODS">
+		<supports>Background Feature, Godtouched</supports>
 		<description>
 			<p>While you may not know what your purpose in life is, the god or goddess who directly affected you does and has a plan for you. When you are feeling lost, your deity shows you what you are needing to do, be it through visions, dreams, or in-person interaction.</p>
 		</description>

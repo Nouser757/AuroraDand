@@ -3,7 +3,7 @@
 
 	<info>
 		<name>Transformed Monster</name>
-		<update version="0.2">
+		<update version="0.3">
 			<file name="transformed-monster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/Transformed-Monster.xml" />
 		</update>
 	</info>
@@ -22,7 +22,7 @@
 			<p>All this is new to you and takes a bit of practice. Sometimes the beast will come out.</p>
 		</description>
 		<setters>
-			<set name="short">Religion, Insight</set>
+			<set name="short">Intimidation, Insight, 1 Infernal / Primordial / Abyssal</set>
 		</setters>
 		<sheet display="false" />
 		<rules>
