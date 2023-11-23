@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<info>
+		<name>Delver</name>
+		<update version="0.1">
+			<file name="rogue-delver.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Subclasses/Rogue-Delver.xml" />
+		</update>
+	</info>
+
+  <element name="Delver" type="Archetype" source="Dand Wiki" id="ID_NOUS_DAND_ARCHETYPE_DELVER">
+    <supports>Roguish Archetype</supports>
+    <description>
+			<p>Rogues have an uncanny knack for stealing from those who they should never have crossed. Delvers are an especially notable brand of these kleptomaniacs, having stolen a source of power from a denizen of the Underdark. Perhaps you stumbled onto a relic of Dagon or Cthulhu and decided to pocket it, or perhaps you have come into the possession of the remains of an elder brain. Regardless of its source, your stolen power manifests as odd and dark eldritch arts.</p>
+			<div element="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_SPELLCASTING" />
+      <div element="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_MARK" />
+      <div element="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_GAZE" />
+      <div element="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_STRIKE" />
+      <div element="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_MIND" />
+      <div element="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_REALITY" />
+		</description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_SPELLCASTING" level="3"/>
+      <grant type="Archetype Feature" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_MARK" level="3"/>
+      <grant type="Archetype Feature" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_GAZE" level="9"/>
+      <grant type="Archetype Feature" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_STRIKE" level="9"/>
+      <grant type="Archetype Feature" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_MIND" level="13"/>
+      <grant type="Archetype Feature" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_REALITY" level="17"/>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+    </rules>
+  </element>
+
+  <element name="Spellcasting" type="Archetype Feature" source="Dand Wiki" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_SPELLCASTING">
+    <description>
+      <br />
+      <p class="indent"><b><i>Cantrips.</i></b> You learn three cantrips from the delver spell list. You learn another delver cantrip of your choice at 10th level.</p>
+      <p class="indent"><b><i>Spell Slots.</i></b> The Delver Spellcasting table shows how many spell slots you have to cast your delver spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+      <p class="indent">For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.</p>
+      <p class="indent"><b><i>Spells Known of 1st-Level and Higher.</i></b> You know three 1st-level delver spells of your choice</p>
+      <p class="indent">The Spells Known column of the Delver Spellcasting table shows when you learn more delver spells of 1st level or higher. Each of these must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p>
+      <p class="indent">Whenever you gain a level in this class, you can replace one of the delver spells you know with another spell of your choice from the delver spell list. The new spell must be of a level for which you have spell slots.</p>
+      <p class="indent"><b><i>Spellcasting Ability.</i></b> Charisma is your spellcasting ability for your Delver spells, as your twisted personality is the source of your arcane power. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a delver spell you cast and when making an attack roll with one.</p>
+      <center>
+        <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+        <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+      </center>
+      <h5 class="caption">DELVER SPELLCASTING</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-10">Rogue Level</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td></tr>
+        </thead>
+        <tr><td> 3rd</td><td>3</td><td> 3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4th</td><td>3</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5th</td><td>3</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6th</td><td>3</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7th</td><td>3</td><td> 5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td> 8th</td><td>3</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td> 9th</td><td>3</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>10th</td><td>4</td><td> 7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>11th</td><td>4</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>12th</td><td>4</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>13th</td><td>4</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>14th</td><td>4</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>15th</td><td>4</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>16th</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+        <tr><td>17th</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+        <tr><td>18th</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+        <tr><td>19th</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>20th</td><td>4</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+      </table>
+    </description>
+    <sheet display="false" />
+		<spellcasting name="Delver" ability="Charisma" allowReplace="true">
+			<list>Delver</list>
+		</spellcasting>
+    <rules>
+			<stat name="delver:spellcasting:slots:1" value="2" level="3" />
+			<stat name="delver:spellcasting:slots:1" value="1" level="4" />
+			<stat name="delver:spellcasting:slots:1" value="1" level="7" />
+			<stat name="delver:spellcasting:slots:2" value="2" level="7" />
+			<stat name="delver:spellcasting:slots:2" value="1" level="10" />
+			<stat name="delver:spellcasting:slots:3" value="2" level="13" />
+			<stat name="delver:spellcasting:slots:3" value="1" level="16" />
+			<stat name="delver:spellcasting:slots:4" value="1" level="19" />
+			<select type="Spell" name="Cantrip (Delver)" supports="$(spellcasting:list), 0" level="3" number="3" spellcasting="Delver" />
+			<select type="Spell" name="Cantrip (Delver)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Delver" />
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), 1" level="3" number="3" spellcasting="Delver" />
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Delver"/>
+			<select type="Spell" name="Spell (Delver)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" spellcasting="Delver"/>
+		</rules>
+  </element>
+
+  <element name="Deep Mark" type="Archetype Feature" source="Dand Wiki" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_MARK">
+    <description>
+      <p>Starting at 3rd level, you become marked by eldritch magics, causing physical alterations to your body. You gain a swimming speed equal to your walk speed and gain the ability to breath water.</p>
+    </description>
+    <sheet>
+      <description>You have the ability to breath underwater.</description>
+    </sheet>
+    <rules>
+      <stat name="innate speed:swim" value="innate speed" bonus="base" />
+    </rules>
+  </element>
+
+  <element name="Gaze of the Depths" type="Archetype Feature" source="Dand Wiki" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_GAZE">
+    <description>
+      <p>Starting at 9th level, your deep mark grows more prominent, altering your sight. You gain darkvision with a range of 60 feet.</p>
+    </description>
+    <sheet>
+      <description>You have the ability to breath underwater.</description>
+    </sheet>
+    <rules>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+    </rules>
+  </element>
+
+  <element name="Strike from the Depths" type="Archetype Feature" source="Dand Wiki" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_STRIKE">
+    <description>
+      <p>Also starting at 9th level, when you target a single creature with a delver spell, provided that creature be engaged with another creature or you are hidden from them, you may apply your sneak attack bonus as additional damage on that spell. This expends your single use of sneak attack for that turn, however.</p>
+    </description>
+    <sheet>
+      <description>When you target a single creature with a delver spell, and that creature is engaged with another creature or you are hidden from them, you may apply your sneak attack bonus as additional damage on that spell. This uses your sneak attack for the turn.</description>
+    </sheet>
+  </element>
+
+  <element name="Depths of the Mind" type="Archetype Feature" source="Dand Wiki" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_MIND">
+    <description>
+      <p>Starting at 13th level, your twisted mind allows you to gain advantage on all ability checks and saving throws to avoid the effects of any illusion or enchantment magic. Additionally, your spell save DC is treated as 1 higher whenever you cast an illusion or enchantment spell.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on all ability checks and saving throws to avoid the effects of any illusion or enchantment magic. Additionally, your spell save DC is treated as 1 higher whenever you cast an illusion or enchantment spell.</description>
+    </sheet>
+  </element>
+
+  <element name="Dark Reality" type="Archetype Feature" source="Dand Wiki" id="ID_NOUS_DAND_ARCHETYPE_FEATURE_DELVER_REALITY">
+    <description>
+      <p>Starting at 17th level, you gain the ability to cast the spell alter self at will. Additionally, you may take the form of a "Deep Sludge" which uses the statistics of the Water Elemental. This transformation allows you to retain your Intelligence, Wisdom, and Charisma scores and your personality and alignment for the duration of your transformation. This transformation lasts until you are reduced to 0 hit points in your Sludge form, 1 hour passes, or you revert to your normal form as an action. Any damage that would reduce you to 0 hit points while in this form instead revert you to your normal form, but all damage that exceeds the hit points provided by your transformation is transferred to your own hit points. You may use transform into Deep Sludge once before requiring a long rest to do so again.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You may cast Alter Self without using a spell slot. Additionally, when you cast Alter Self, you may take the form of a "Deep Sludge" which uses the statistics of the Water Elemental. This transformation allows you to retain your Intelligence, Wisdom, and Charisma scores and your personality and alignment for the duration of your transformation. This transformation lasts until you are reduced to 0 hit points in your Sludge form, 1 hour passes, or you revert to your normal form as an action. Any damage that would reduce you to 0 hit points while in this form instead revert you to your normal form, but all damage that exceeds the hit points provided by your transformation is transferred to your own hit points.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" />
+    </rules>
+  </element>
+
+  <append id="ID_PHB_SPELL_ACID_SPLASH">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CHILL_TOUCH">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DANCING_LIGHTS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ELDRITCH_BLAST">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MINOR_ILLUSION">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PRESTIDIGITATION">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_RAY_OF_FROST">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_THAUMATURGY">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ARMOR_OF_AGATHYS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ARMS_OF_HADAR">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BANE">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CHARM_PERSON">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_COMMAND">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DETECT_MAGIC">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DISSONANT_WHISPERS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HEX">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_INFLICT_WOUNDS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SHIELD">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_WITCH_BOLT">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ALTER_SELF">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BLINDNESS/DEAFNESS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BLUR">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CROWN_OF_MADNESS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DARKNESS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_INVISIBILITY">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ARCANIST'S_MAGIC_AURA">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MIRROR_IMAGE">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PHANTASMAL_FORCE">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SUGGESTION">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BESTOW_CURSE">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BLINK">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_COUNTERSPELL">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DISPEL_MAGIC">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_FEAR">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HUNGER_OF_HADAR">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_TINY_HUT">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_MAJOR_IMAGE">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_NONDETECTION">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_SLOW">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_ARCANE_EYE">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONFUSION">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_CONTROL_WATER">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_DIMENSION_DOOR">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_BLACK_TENTACLES">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_PHANTASMAL_KILLER">
+    <supports>Delver</supports>
+  </append>
+  <append id="ID_PHB_SPELL_POLYMORPH">
+    <supports>Delver</supports>
+  </append>
+
+</elements>
+    

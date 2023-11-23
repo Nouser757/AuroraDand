@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <info>
+    <name>Harpy</name>
+    <update version="0.1">
+      <file name="harpy.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Harpy.xml" />
+    </update>
+  </info>
+
+  <element name="Harpy" type="Race" source="Dand Wiki" id="ID_NOUS_DAND_RACE_HARPY">
+    <description>
+      <p class="flavor">"Just then, he heard a sound - the most beautiful one he'd heard. He turned toward it, and just as he was about to walk off a cliff to get to the source of that singing, he was pulled back. "Are you an idiot? those are harpies singing!""
+
+
+Harpies are birdfolk that live on mountains, particularly near cliffs. They appear more humanlike than the Kenku or Aarakocra. They are best known for their ability to sing a magical song, which they use to lure unsuspecting travelers to their demise.</p>
+      <h4>Physical Description</h4>
+      <p>Harpies are slightly shorter than your average human. They have wings sprouting from around their shoulder blades, and have birdlike legs and feet.</p>
+      <h4>History</h4>
+      <p>Harpies have been arcane scholars for a long time. After engagement in a long and brutal line of wars, harpies were eventually defeated by the empire of Humans, Dwarfs, and Halflings. After careful consideration, the empire decided that the harpies would be better as allies than enemies, and they were accepted as equals by politicians. Having been absorbed into the empire, harpies have since been invaluable in military campaigns and are pushing others to study the arcane.</p>
+      <h4>Society</h4>
+      <p>Harpies are relatively upper-class, and act as such. They also know themselves to be the best mages in the empire, and they're right.</p>
+      <h4>Halpy Names</h4>
+      <p>Harpy names reflect on their trademark singing. Each one is smooth, lasting around 2 syllables. Male names begin with vowels, female names begin with consonants.
+
+<b>Male:</b> Omem, Arem, Esem
+
+<b>Female:</b> Semem, Vorem, Rosem</p>
+      <h4>Harpy Traits</h4>
+      <br />
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong>  Harpies, like other birdfolk, are quick. However, they also are much better at social interaction than your average Aarakocra. Your charisma score increases by 1 and your dexterity score increases by 1.</p>
+      <p class="indent"><strong><em>Age.</em></strong> Harpies have lifespans that are a bit longer than humans. The reach maturity at around 20 and are known to survive to around 150.</p>
+      <p class="indent"><strong><em>Alignment.</em></strong> Harpies tend towards chaotic alignments. Most are evil, but some try to break the mold.</p>
+      <p class="indent"><strong><em>Size.</em></strong> Harpies are slightly smaller than humans, at 4-5 feet. Your size is medium.</p>
+      <p class="indent"><strong><em>Speed.</em></strong> While your birdlike claws make it hard for you to walk, that is more than made up for by the wings sprouting from your back. Your base walking speed is 25 feet. You have a flying speed of 40 feet.</p>
+      <p class="indent"><strong><em>Harpy's Song.</em></strong> You can use your action to start singing a magical melody, which can be heard out to 300 ft. When you do so, each creature of your choice within 100 ft of you must make a wisdom save with a DC equal to 8 + your charisma modifier + your Proficiency Bonus, or your spell save DC if you have one. On a failed save, they are charmed by you and incapacitated for the duration of the song. While charmed in this way, if the creature must attempt to move within 5 feet of you, avoiding obvious hazards. Once it is within five feet of you, it cannot move. If it takes damage from a source other than you, it may repeat its save. On a successful save, or when the effect ends on it, the creature is immune to the effects of the songs of all harpies for 24 hours. This effect lasts for one minute. You can use this feature once, and regain all expended uses when you finish a long rest.</p>
+      <p class="indent"><strong><em>Claws.</em></strong> Your sharp claws are your natural weapons. When you make an unarmed strike, you deal 1d4 slashing damage as opposed to the normal damage for an unarmed strike.</p>
+      <p class="indent"><strong><em>Type.</em></strong> You are a monstrosity.</p>
+      <p class="indent"><strong><em>Hollow Bones.</em></strong> Your bones, like those of a bird, are hollow. This means that you weigh less, making it easier to fly, but it also means that your bones are easier to break. You have vulnerability to bludgeoning damage.</p>
+      <p class="indent"><strong><em>Languages.</em></strong> Harpies are often scholars, and pick up languages quickly. As such, you can speak, read, and write Common and one other language of your choice.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Harpy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Harpy)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <stat name="innate speed" value="25" bonus="base" />
+      <stat name="innate speed:fly" value="40" bonus="base" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <select type="Language" name="Language (Harpy)" />
+      <select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_TYPE" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_SONG" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_CLAWS" />
+      <grant type="Racial Trait" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_BONES" />
+    </rules>
+  </element>
+
+  <element name="Harpy's Song" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_SONG">
+		<description>
+			<p>You can use your action to start singing a magical melody, which can be heard out to 300 ft. When you do so, each creature of your choice within 100 ft of you must make a wisdom save with a DC equal to 8 + your charisma modifier + your Proficiency Bonus, or your spell save DC if you have one. On a failed save, they are charmed by you and incapacitated for the duration of the song. While charmed in this way, if the creature must attempt to move within 5 feet of you, avoiding obvious hazards. Once it is within five feet of you, it cannot move. If it takes damage from a source other than you, it may repeat its save. On a successful save, or when the effect ends on it, the creature is immune to the effects of the songs of all harpies for 24 hours. This effect lasts for one minute. You can use this feature once, and regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You can use your action to start singing a magical melody, which can be heard out to 300 ft. When you do so, each creature of your choice within 100 ft of you must make a wisdom save with a DC equal to 8 + your charisma modifier + your Proficiency Bonus, or your spell save DC if you have one. On a failed save, they are charmed by you and incapacitated for the duration of the song. While charmed in this way, if the creature must attempt to move within 5 feet of you, avoiding obvious hazards. Once it is within five feet of you, it cannot move. If it takes damage from a source other than you, it may repeat its save. On a successful save, or when the effect ends on it, the creature is immune to the effects of the songs of all harpies for 24 hours. This effect lasts for one minute. You can use this feature once, and regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+
+  <element name="Claws" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_CLAWS">
+		<description>
+			<p>Your sharp claws are your natural weapons. When you make an unarmed strike, you deal 1d4 slashing damage as opposed to the normal damage for an unarmed strike.</p>
+		</description>
+		<sheet>
+      <description>When you make an unarmed strike, you deal 1d4 slashing damage as opposed to the normal damage for an unarmed strike.</description>
+    </sheet>
+	</element>
+
+  <element name="Hollow Bones" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_BONES">
+		<description>
+			<p>Your bones, like those of a bird, are hollow. This means that you weigh less, making it easier to fly, but it also means that your bones are easier to break. You have vulnerability to bludgeoning damage.</p>
+		</description>
+		<sheet>
+			<description>You have vulnerability to bludgeoning damage.</description>
+		</sheet>
+	</element>
+
+  <element name="Type" type="Racial Trait" source="Dand Wiki" id="ID_NOUS_DAND_RACIAL_TRAIT_HARPY_TYPE">
+    <description>
+      <p>You are a monstrosity.</p>
+    </description>
+    <sheet>
+      <description>You are a monstrosity.</description>
+    </sheet>
+  </element>
+
+</elements>
