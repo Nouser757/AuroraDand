@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.6">
+    <update version="0.7">
       <file name="nouser.index" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/nouser.index" />
     </update>
   </info>
@@ -14,9 +14,11 @@
   <file name="harpy.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Harpy.xml" />
 	
 	<!-- classes -->
+	<file name="cardcaster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Classes/Cardcaster.xml" />
 
 	<!-- subclasses -->
 	<file name="rogue-delver.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Subclasses/Rogue-Delver.xml" />
+	<file name="cardcaster-court.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Subclasses/Cardcaster-Court.xml" />
 	
 	<!-- backgrounds -->
 	<file name="god-touched.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Backgrounds/God-Touched.xml" />

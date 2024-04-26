@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<info>
+		<name>Cardcaster</name>
+    <author>Jalfik</author>
+		<update version="0.1">
+			<file name="cardcaster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Classes/Cardcaster.xml" />
+		</update>
+	</info>
+
+  <element name="Cardcaster" type="Class" source="Jalfik" id="ID_NOUS_MISC_CLASS_CARDCASTER">
+    <description>
+        <p>Often called diviners, cardcasters utilize the uncertainty of the tarot to draw forth their magic. To a Cardcaster the tarot is more than just a prediction of things that may or may not happen, rather it is a quite literal embodiment. In a Cardcasters hands, such cards are capable of unleashing magic upon the world.</p>
+        <p class="indent">Cardcasters have trained to understand and wield the many meanings these magical cards can have. There are many varieties of card casters, some who train physical combat along side magical, others who focus on their skills, and still more who seek the deepest fringe understandings of their cards in hopes of unlocking even more power. Most Cardcasters are superstitious and spiritual people who believe in fate above all things.</p>
+        <h4>CREATING A CARDCASTER</h4>
+        <p>When creating your Cardcaster, consider your character's connection to fate, random chance, or prophecy. Perhaps your character was born with this connection or it was forged from a special experience. You might have been born under an eclipse or gained your connection under the light of a meteor shower.</p>
+        <p class="indent">Think about how your character became an adventurer. Is there some fated event you are seeking out or trying to make happen? Maybe you sense the thread of life from one of your other party members.</p>
+        <h5>QUICK BUILD</h5>
+        <p>You can make a Cardcaster quickly by making your highest ability score based on the governing suit you desire, followed by Dexterity. Choose the Sage background.</p>
+        <h3>CLASS FEATURES</h3>
+        <p>As a cardcaster, you gain the following class features.</p>
+      <h5>HIT POINTS</h5>
+        <ul class="unstyled">
+          <li><strong>Hit Dice:</strong> 1d6 per cardcaster level</li>
+          <li><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</li>
+          <li><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per cardcaster level after 1st</li>
+        </ul>
+      <h5>PROFICIENCIES</h5>
+        <ul class="unstyled mb">
+          <li><strong>Armor:</strong> None</li>
+          <li><strong>Weapons:</strong> Simple weapons</li>
+          <li><strong>Tools:</strong> Playing Card Set (Tarot Cards)</li>
+        </ul>
+        <ul class="unstyled">
+          <li><strong>Saving Throws:</strong> Wisdom, Charisma</li>
+          <li><strong>Skills:</strong> Arcana and one other skill</li>
+        </ul>
+      <h5>EQUIPMENT</h5>
+        <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+        <ul>
+          <li>(a) a quarterstaff or (b) a dagger</li>
+          <li>(a) a scholar's pack or (b) a explorer's pack</li>
+          <li>A Tarot deck</li>
+        </ul>
+      <h5 class="caption">THE CARDCASTER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="middle">Major Arcana Known</td><td class="col-10">Hand Size</td><td class="col-10">Plays</td><td class="col-10">Slot Level</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Governing Suit, Cardcasting</td><td>Fool(0) - The Empress(3)</td><td>2</td><td>2</td><td>1st</td></tr>
+				<tr><td> 2nd</td><td class="left">Soul Line</td><td>The Fool(0) - The Empress(3)</td><td>2</td><td>2</td><td>1st</td></tr>
+				<tr><td> 3rd</td><td class="left">Court Card</td><td>The Fool(0) - The Chariot(7)</td><td>3</td><td>4</td><td>2nd</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>The Fool(0) - The Chariot(7)</td><td>3</td><td>4</td><td>2nd</td></tr>
+				<tr><td> 5th</td><td class="left">Fate Renewed</td><td>The Fool(0) - The Hermit(9)</td><td>4</td><td>5</td><td>3rd</td></tr>
+				<tr><td> 6th</td><td class="left">Court Card feature</td><td>The Fool(0) - The Hermit(9)</td><td>4</td><td>5</td><td>3rd</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>The Fool(0) - Strength(11)</td><td>5</td><td>6</td><td>4th</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>The Fool(0) - Strength(11)</td><td>5</td><td>6</td><td>4th</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>The Fool(0) - Death(13)</td><td>5</td><td>7</td><td>5th</td></tr>
+				<tr><td>10th</td><td class="left">Court Card feature</td><td>The Fool(0) - Death(13)</td><td>5</td><td>7</td><td>5th</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>The Fool(0) - The Devil(15)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>The Fool(0) - The Devil(15)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>The Fool (0) - The Star(17)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>14th</td><td class="left">Court Card feature</td><td>The Fool (0) - The Star(17)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>15th</td><td class="left">—</td><td>The Fool(0) - The Sun(19)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>The Fool(0) - The Sun(19)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>The Fool(0) - The World(21)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>18th</td><td class="left">Deck of Suits and Faces</td><td>The Fool(0) - The World(21)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>The Fool(0) - The World(21)</td><td>5</td><td>8</td><td>5th</td></tr>
+				<tr><td>20th</td><td class="left">Transcendent</td><td>The Fool(0) - The World(21)</td><td>5</td><td>8</td><td>5th</td></tr>
+			</table>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT"/>
+			<div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_CARDCASTING"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_COURT"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_ABILITY_SCORE_IMPROVEMENT_CARDCASTER"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_RENEW"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_TRANSCEND"/>
+    </description>
+    <setters>
+			<set name="hd">d6</set>
+		</setters>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA"/>
+			<select type="Proficiency" name="Skill Proficiency (Cardcaster)" supports="Skill"/>
+      <grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT" level="1"/>
+			<grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_CARDCASTING" level="1"/>
+      <grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL" level="2"/>
+      <grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_COURT" level="3"/>
+			<grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_ABILITY_SCORE_IMPROVEMENT_CARDCASTER" level="4" />
+      <grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_RENEW" level="5"/>
+      <grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK" level="18"/>
+      <grant type="Class Feature" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_TRANSCEND" level="20"/>
+    </rules>
+  </element>
+
+  <element name="Governing Suit" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT">
+		<description>
+			<p>At 1st level, you feel a special draw towards one of the suits of the minor arcana, deciding your Cardcasting ability, focus, and cantrips</p>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_CUPS"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_PENTACLES"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_WANDS"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_SWORDS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Governing Suit" supports="Governing Suit" />
+		</rules>
+	</element>
+  <element name="Cups" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_CUPS">
+		<supports>Governing Suit</supports>
+		<description>
+      <ul>
+        <li>Your Cardcasting ability is Charisma.</li>
+        <li>You gain proficiency in two Charisma skills.</li>
+        <li>You gain a chalice, orb, or crystal, which can be used as a spellcasting focus for you.</li>
+        <li>When you cast a spell that deals Cold or Lightning damage, you deal additional damage equal to your proficiency bonus.</li>
+        <li>You learn three of the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_FRIENDS" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_FROSTBITE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_GUIDANCE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_RAY_OF_FROST" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_SHAPE_WATER" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_SHOCKING_GRASP" />
+			</div>
+		</description>
+		<sheet>
+			<description>When you cast a spell that deals Cold or Lightning damage, you deal {{proficiency}} additional damage.</description>
+		</sheet>
+    <spellcasting name="Cardcaster" ability="Charisma" allowReplace="true">
+			<list>Cardcaster</list>
+		</spellcasting>
+		<rules>
+      <select type="Proficiency" name="Skill Proficiency (Cups)" supports="Skill,Charisma" number="2"/>
+      <select type="Spell" name="Cantrip (Cups)" supports="ID_PHB_SPELL_FRIENDS|ID_XGTE_SPELL_FROSTBITE|ID_PHB_SPELL_GUIDANCE|ID_PHB_SPELL_RAY_OF_FROST|ID_XGTE_SPELL_SHAPE_WATER|ID_PHB_SPELL_SHOCKING_GRASP" number="3" spellcasting="Cardcaster" requirements="!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK"/>
+		</rules>
+	</element>
+  <element name="Pentacles" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_PENTACLES">
+		<supports>Governing Suit</supports>
+		<description>
+      <ul>
+        <li>Your Cardcasting ability is Intelligence.</li>
+        <li>You gain proficiency in two Intelligence skills.</li>
+        <li>You gain a piece of jewellery or a gemstone, which can be used as a spellcasting focus for you.</li>
+        <li>When you cast a spell that deals Acid or Poison damage, you deal additional damage equal to your proficiency bonus.</li>
+        <li>You learn three of the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_ACID_SPLASH" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_DRUIDCRAFT" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_INFESTATION" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_MAGIC_STONE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_MENDING" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_MOLD_EARTH" />
+			</div>
+		</description>
+		<sheet>
+			<description>When you cast a spell that deals Acid or Poison damage, you deal {{proficiency}} additional damage.</description>
+		</sheet>
+    <spellcasting name="Cardcaster" ability="Intelligence" allowReplace="true">
+			<list>Cardcaster</list>
+		</spellcasting>
+		<rules>
+      <select type="Proficiency" name="Skill Proficiency (Pentacles)" supports="Skill,Intelligence" number="2"/>
+      <select type="Spell" name="Cantrip (Pentacles)" supports="ID_PHB_SPELL_ACID_SPLASH|ID_XGTE_SPELL_DRUIDCRAFT|ID_XGTE_SPELL_INFESTATION|ID_XGTE_SPELL_MAGIC_STONE|ID_XGTE_SPELL_MENDING|ID_XGTE_SPELL_MOLD_EARTH" number="3" spellcasting="Cardcaster" requirements="!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK"/>
+		</rules>
+	</element>
+  <element name="Wands" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_WANDS">
+		<supports>Governing Suit</supports>
+		<description>
+      <ul>
+        <li>Your Cardcasting ability is Wisdom.</li>
+        <li>You gain proficiency in two Wisdom skills.</li>
+        <li>You gain a wand, staff, or rod, which can be used as a spellcasting focus for you.</li>
+        <li>When you cast a spell that deals Fire or Necrotic damage, you deal additional damage equal to your proficiency bonus.</li>
+        <li>You learn three of the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_CHILL_TOUCH" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_CONTROL_FLAMES" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_CREATE_BONFIRE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_PRODUCE_FLAME" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_THAUMATURGY" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+			</div>
+		</description>
+		<sheet>
+			<description>When you cast a spell that deals Fire or Necrotic damage, you deal {{proficiency}} additional damage.</description>
+		</sheet>
+    <spellcasting name="Cardcaster" ability="Wisdom" allowReplace="true">
+			<list>Cardcaster</list>
+		</spellcasting>
+		<rules>
+      <select type="Proficiency" name="Skill Proficiency (Wands)" supports="Skill,Wisdom" number="2"/>
+      <select type="Spell" name="Cantrip (Wands)" supports="ID_PHB_SPELL_CHILL_TOUCH|ID_XGTE_SPELL_CONTROL_FLAMES|ID_XGTE_SPELL_CREATE_BONFIRE|ID_PHB_SPELL_PRODUCE_FLAME|ID_PHB_SPELL_THAUMATURGY|ID_XGTE_SPELL_TOLL_THE_DEAD" number="3" spellcasting="Cardcaster" requirements="!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK"/>
+		</rules>
+	</element>
+  <element name="Swords" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_SWORDS">
+		<supports>Governing Suit</supports>
+		<description>
+      <ul>
+        <li>Your Cardcasting ability is Constitution.</li>
+        <li>You gain proficiency with Martial melee weapons and light armor.</li>
+        <li>You gain a martial melee weapon, which can be used as a spellcasting focus for you.</li>
+        <li>When you cast a spell that deals Bludgeoning, Piercing, Slashing, or Thunder damage, you deal additional damage equal to your proficiency bonus.</li>
+        <li>You learn three of the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_BLADE_WARD" />
+			</div>
+      <div class="reference">
+				<div element="ID_WOTC_TCOE_SPELL_BOOMING_BLADE" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_GUST" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_MAGE_HAND" />
+			</div>
+      <div class="reference">
+				<div element="ID_WOTC_TCOE_SPELL_SWORD_BURST" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_TRUE_STRIKE" />
+			</div>
+		</description>
+		<sheet>
+			<description>When you cast a spell that deals Bludgeoning, Piercing, Slashing, or Thunder damage, you deal {{proficiency}} additional damage.</description>
+		</sheet>
+    <spellcasting name="Cardcaster" ability="Constitution" allowReplace="true">
+			<list>Cardcaster</list>
+		</spellcasting>
+		<rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS"/>
+      <select type="Spell" name="Cantrip (Swords)" supports="ID_PHB_SPELL_BLADE_WARD|ID_WOTC_TCOE_SPELL_BOOMING_BLADE|ID_XGTE_SPELL_GUST|ID_PHB_SPELL_MAGE_HAND|ID_WOTC_TCOE_SPELL_SWORD_BURST|ID_PHB_SPELL_TRUE_STRIKE" number="3" spellcasting="Cardcaster" requirements="!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK"/>
+		</rules>
+	</element>
+
+	<element name="Cardcasting" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_CARDCASTING">
+    <description>
+      <p>As a Cardcaster you release magic by playing tarot cards from the major arcana. Your starting deck consists of four cards, The Fool(0), The Magician(1), The High Priestess(2), and The Empress(3), but additional cards are added to your deck as you level up as shown in the Major Arcana Deck section of the class table</p>
+			<p class="indent">Upon completion of a long rest, shuffle all cards from your discard pile, your hand, and out of play into your deck, then draw cards equal to your hand size, as shown in the Hand Size column of the class table.</p>
+			<p class="indent">Any time you have less cards in your hand than your hand size, draw cards from your deck until the amount of cards in your hand equals your hand size, or until your deck is empty.</p>
+			<h5>CASTING SPELLS</h5>
+			<h6>Playing Cards</h6>
+			<p>To cast a spell of 1st level or higher, you must play a card from your hand and cast one of the spells that that card embodies, as shown in the following table.</p>
+			<p class="indent">After a card is played and resolved, that card is placed in your discard pile</p>
+			<p class="indent">You may only play a certain number of cards, as shown by the Plays column of the class table.</p>
+			<p class="indent">You regain all plays upon completion of a long rest.</p>
+			<h6>Removing Cards</h6>
+			<p>Some cards are so powerful that they are too taxing to play more than once.</p>
+			<p class="indent">When you play The Tower(16) or a higher card, instead of placing it in your discard pile, remove it from play.</p>
+			<p class="indent">Additionally, these powerful cards come in pairs: The Tower(16) and The Star(17), The Moon(18) and The Sun(19), Judgement(20) and The World(21). If one of these cards is removed from play, the card it's paired with is also removed from play.</p>
+			<sheet display="false">
+				<description>You have the ability to cast spells by playing cards, your hand size is {{cardcaster:spellcasting:prepare}} and you can play {{cardcaster:spellcasting:slots:count}} cards per long rest.</description>
+			</sheet>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Card Number</td><td class="left">Card Name</td><td class="middle">Spells</td></tr>
+				</thead>
+				<tr><td>0</td><td class="left">The Fool</td><td>Chaos Bolt, Expeditious Retreat, Sanctuary</td></tr>
+				<tr><td>1</td><td class="left">The Magician</td><td>Mage Armor, Magic Missile, Shield</td></tr>
+				<tr><td>2</td><td class="left">The High Priestess</td><td>Entangle, Tasha's Hideous Laughter, Witch Bolt</td></tr>
+				<tr><td>3</td><td class="left">The Empress</td><td>Animal Friendship, Cause Fear, Inflict Wounds</td></tr>
+				<tr><td>4</td><td class="left">The Emperor</td><td>Enlarge/Reduce, Hold Person, Shatter</td></tr>
+				<tr><td>5</td><td class="left">The Hierophant</td><td>Detect Thoughts, Dragon's Breath, Gust of Wind</td></tr>
+				<tr><td>6</td><td class="left">The Lovers</td><td>Enhance Ability, Moonbeam, Suggestion</td></tr>
+				<tr><td>7</td><td class="left">The Chariot</td><td>Alter Self, Heat Metal, Misty Step</td></tr>
+				<tr><td>8</td><td class="left">Justice</td><td>Haste, Lightning Bolt, Life Transference</td></tr>
+				<tr><td>9</td><td class="left">The Hermit</td><td>Bestow Curse, Fly, Major Image</td></tr>
+				<tr><td>10</td><td class="left">Wheel of Fortune</td><td>Confusion, Dimension Door, Watery Sphere</td></tr>
+				<tr><td>11</td><td class="left">Strength</td><td>Evard's Black Tentacles, Dominate Beast, Polymorph</td></tr>
+				<tr><td>12</td><td class="left">The Hanged Man</td><td>Dominate Person, Immolation, Legend Lore</td></tr>
+				<tr><td>13</td><td class="left">Death</td><td>Cloudkill, Contagion, Geas</td></tr>
+				<tr><td>14</td><td class="left">Temperance</td><td>Globe of Invulnerability, Mental Prison, Sunbeam</td></tr>
+				<tr><td>15</td><td class="left">The Devil</td><td>Disintegrate, Flesh to Stone, Mass Suggestion</td></tr>
+				<tr><td>16</td><td class="left">The Tower</td><td>Reverse Gravity, Mordenkainen's Magnificent Mansion, Teleport</td></tr>
+				<tr><td>17</td><td class="left">The Star</td><td>Crown of Stars, Planeshift, Project Image</td></tr>
+				<tr><td>18</td><td class="left">The Moon</td><td>Antipathy/Sympathy, Antimagic Field, Dominate Monster</td></tr>
+				<tr><td>19</td><td class="left">The Sun</td><td>Control Weather, Power Word Stun, Sunburst</td></tr>
+				<tr><td>20</td><td class="left">Judgement</td><td>Power Word Kill, Storm of Vengeance, True Polymorph</td></tr>
+				<tr><td>21</td><td class="left">The World</td><td>Gate, Timestop, Wish</td></tr>
+			</table>
+			<h6>Ritual Casting</h6>
+			<p>The tarot deck is naturally designed for the purposes of Divination. As such you may cast any divination spell as a ritual so long as you have a card in your deck that embodies a spell of the same level as the divination spell you wish to cast as a ritual.</p>
+			<h6>Growing Power</h6>
+			<p>Your first 12 cards [The Fool(0) - Strength(11)] start out weak, but gain power as your level up, being casted as if you were using a higher spell slot as shown in the Slot Level column of your class table.</p>
+		</description>
+		<rules>
+			<stat name="cardcaster:spellcasting:slots:count" value="2" level="1"/>
+			<stat name="cardcaster:spellcasting:slots:count" value="2" level="3"/>
+			<stat name="cardcaster:spellcasting:slots:count" value="1" level="5"/>
+			<stat name="cardcaster:spellcasting:slots:count" value="1" level="7"/>
+			<stat name="cardcaster:spellcasting:slots:count" value="1" level="9"/>
+			<stat name="cardcaster:spellcasting:slots:count" value="1" level="11"/>
+
+			<stat name="cardcaster:spellcasting:prepare" value="2" level="1"/>
+			<stat name="cardcaster:spellcasting:prepare" value="1" level="3"/>
+			<stat name="cardcaster:spellcasting:prepare" value="1" level="5"/>
+			<stat name="cardcaster:spellcasting:prepare" value="1" level="7"/>
+
+			<stat name="cardcaster:spellcasting:slots:1" value="cardcaster:spellcasting:slots:count" level="1" />
+			<stat name="cardcaster:spellcasting:slots:1" value="-cardcaster:spellcasting:slots:count" level="3" />
+			<stat name="cardcaster:spellcasting:slots:2" value="cardcaster:spellcasting:slots:count" level="3" />
+			<stat name="cardcaster:spellcasting:slots:2" value="-cardcaster:spellcasting:slots:count" level="5" />
+			<stat name="cardcaster:spellcasting:slots:3" value="cardcaster:spellcasting:slots:count" level="5" />
+			<stat name="cardcaster:spellcasting:slots:3" value="-cardcaster:spellcasting:slots:count" level="7" />
+			<stat name="cardcaster:spellcasting:slots:4" value="cardcaster:spellcasting:slots:count" level="7" />
+			<stat name="cardcaster:spellcasting:slots:4" value="-cardcaster:spellcasting:slots:count" level="9" />
+			<stat name="cardcaster:spellcasting:slots:5" value="cardcaster:spellcasting:slots:count" level="9" />
+
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_FOOL" spellcasting="Cardcaster" level="1" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_MAGICIAN" spellcasting="Cardcaster" level="1" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_PRIESTESS" spellcasting="Cardcaster" level="1" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_EMPRESS" spellcasting="Cardcaster" level="1" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_EMPEROR" spellcasting="Cardcaster" level="3" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_HIEROPHANT" spellcasting="Cardcaster" level="3" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_LOVERS" spellcasting="Cardcaster" level="3" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_CHARIOT" spellcasting="Cardcaster" level="3" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_JUSTICE" spellcasting="Cardcaster" level="5" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_HERMIT" spellcasting="Cardcaster" level="5" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_WHEEL" spellcasting="Cardcaster" level="7" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_STRENGTH" spellcasting="Cardcaster" level="7" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_HANGED" spellcasting="Cardcaster" level="9" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_DEATH" spellcasting="Cardcaster" level="9" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_TEMPERANCE" spellcasting="Cardcaster" level="11" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_DEVIL" spellcasting="Cardcaster" level="11" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_TOWER" spellcasting="Cardcaster" level="13" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_STAR" spellcasting="Cardcaster" level="13" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_MOON" spellcasting="Cardcaster" level="15" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_SUN" spellcasting="Cardcaster" level="15" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_JUDGEMENT" spellcasting="Cardcaster" level="17" />
+			<grant type="Spell" id="ID_NOUS_MISC_SPELL_WORLD" spellcasting="Cardcaster" level="17" />
+		</rules>
+	</element>
+
+	<element name="Soul Line" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL">
+		<description>
+			<p>At 2nd level you understand the hidden forces that drive your life. While not inherently tied to card casting, understanding and mastering your Soul Line provides you with a magical attunement that follows you throughout your life.</p>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL_SUN"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL_MOON"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL_MERCURY"/>
+      <div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL_VENUS"/>
+			<div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL_MARS"/>
+			<div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL_JUPITER"/>
+			<div element= "ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SOUL_SATURN"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Soul Line" supports="Soul Line" />
+		</rules>
+	</element>
+	<element name="Sun" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_SOUL_SUN">
+		<supports>Soul Line</supports>
+		<description>
+			<p>The Sun is the giver of life but also the ruler of death and thus governs the school of Necromancy. All friendly creatures, including yourself, who are within 60 feet of you have advantage on death saving throws.</p>
+		</description>
+		<sheet>
+			<description>All friendly creatures, including yourself, who are within 60 feet of you have advantage on death saving throws.</description>
+		</sheet>
+	</element>
+	<element name="Moon" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_SOUL_MOON">
+		<supports>Soul Line</supports>
+		<description>
+			<p>The Moon is the conduit for mystery and wishes and thus governs the school of conjuration. Once per day, when you or another creature rolls a d20, you may force that creature to roll again and you may decide which of the two rolls applies.</p>
+		</description>
+		<sheet>
+			<description>Once per day, when you or another creature rolls a d20, you may force that creature to roll again and you may decide which of the two rolls applies.</description>
+		</sheet>
+	</element>
+	<element name="Mercury" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_SOUL_MERCURY">
+		<supports>Soul Line</supports>
+		<description>
+			<p>Mercury is the most playful and tricky of the planets and thus governs the school of illusion. You gain the Minor Illusion cantrip and when you cast it you can create sights, sounds, and smells at the same time.</p>
+		</description>
+		<sheet>
+			<description>When you cast Minor Illusion, you can create sights, sounds, and smells at the same time.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" spellcasting="Cardcaster" />
+		</rules>
+	</element>
+	<element name="Venus" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_SOUL_VENUS">
+		<supports>Soul Line</supports>
+		<description>
+			<p>Venus is the embodiment of attractiveness and thus governs the school of enchantment. Whenever you succeed in charming a creature, you may force that creature to reveal one secret to you. Additionally, creatures that are charmed by you had disadvantage on perception checks to notice anything other than you.</p>
+		</description>
+		<sheet>
+			<description>Whenever you succeed in charming a creature, you may force that creature to reveal one secret to you. Additionally, creatures that are charmed by you had disadvantage on perception checks to notice anything other than you.</description>
+		</sheet>
+	</element>
+	<element name="Mars" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_SOUL_MARS">
+		<supports>Soul Line</supports>
+		<description>
+			<p>Mars is a powerful force usually of destruction and thus governs the school of evocation. You have a +1 bonus to all attack rolls you make.</p>
+		</description>
+		<sheet>
+			<description>You have a +1 bonus to all attack rolls you make.</description>
+		</sheet>
+	</element>
+	<element name="Jupiter" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_SOUL_JUPITER">
+		<supports>Soul Line</supports>
+		<description>
+			<p>Jupiter is an ever shifting force and thus governs the school of transmutation. Once per day, as an action, you can touch one of the following substances and shift it one step up or down the list. You can alter only one object at a time in this way, the object must fit within a 1ft cube, if it can't, you can make progress on it in 1ft cube increments.</p>
+			<ul>
+				<li>Base Metal[Lead, Tin, Zinc] (Negligible value)</li>
+				<li>Iron (0.5x value of Copper)</li>
+				<li>Steel (Same value as Copper)</li>
+				<li>Copper (weapons and armor -1)</li>
+				<li>Silver (weapons and armor -1)</li>
+				<li>Gold (weapons and armor -2)</li>
+				<li>Platinum (weapons and armor -2)</li>
+				<li>Mithril (5x value of Platinum)</li>
+				<li>Adamantine (10x value of Platinum)</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Once per day, as an action, you can touch a metal and transmute it a step higher or lower in value. You can only alter one object at a time, and the portion transmuted must fit within a 1ft cube.</description>
+		</sheet>
+	</element>
+	<element name="Saturn" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_SOUL_SATURN">
+		<supports>Soul Line</supports>
+		<description>
+			<p>Saturn is a great protector and thus governs the school of Abjuration. You have a +1 bonus to all saving throws made against spells and their effects.</p>
+		</description>
+		<sheet>
+			<description>You have a +1 bonus to all saving throws made against spells and their effects.</description>
+		</sheet>
+	</element>
+
+	<element name="Court Card" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_COURT">
+		<description>
+			<p>When you reach 3rd level your affinity for a specific card in the minor arcana grows, drawing your attention to one of the face cards of your suit. Choose either the Page, Knight, Queen, or King. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
+		</description>
+		<sheet display="false" />
+			<rules>
+				<select type="Archetype" name="Court Card" supports="Court Card" requirements="!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK"/>
+				<grant type="Archetype" id="ID_NOUS_MISC_ARCHETYPE_COURT_CARD_FACE" requirements="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Improvement" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_ABILITY_SCORE_IMPROVEMENT_CARDCASTER">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Cardcaster 4)" supports="Improvement Option,Cardcaster,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Cardcaster 8)" supports="Improvement Option,Cardcaster,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Cardcaster 12)" supports="Improvement Option,Cardcaster,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Cardcaster 16)" supports="Improvement Option,Cardcaster,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Cardcaster 19)" supports="Improvement Option,Cardcaster,19" level="19" />
+		</rules>
+	</element>
+
+	<element name="Fate Renewed" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_RENEW">
+		<description>
+			<p>At 5th level you begin to learn how to control a portion of your fate. As an action you may end your turn, then shuffle your hand and discard pile into your deck. Once you use this feature you must complete a long rest before using it again.</p>
+		</description>
+		<sheet>
+			<description>As an action you may end your turn, then shuffle your hand and discard pile into your deck. Once you use this feature you must complete a long rest before using it again.</description>
+		</sheet>
+	</element>
+
+	<element name="Deck of Suits and Faces" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK">
+		<description>
+			<p>At 18th level your sense of your governing suit and court card are beginning to fade, as you learn each of them have an equal play in your life. All damage you deal with spells deals additional damage equal to your proficiency bonus to one creature hit by the spell.</p>
+			<p class="indent">As a bonus action on your turn you may take on the mantle of a different suit. Choose one of the suits, your spellcasting focus is replaced by one belonging to the new suit. You gain access to all the cantrips of the new suit and you gain advantage on your first attack roll with a cantrip belonging to the new suit. If the cantrip does not have an attack roll the target creature has disadvantage on the first saving throw it makes against the cantrip.</p>
+			<p class="indent">Additionally, you may choose to forego your current Subclass features gained from Court Card and instead craft your own Court Card by selecting one feature of each level from the Page, Knight, Queen, or King. Each time you complete a long rest you may choose a different collection of features from among the Court Cards.</p>
+		</description>
+		<sheet>
+			<description>All damage you deal with spells deals {{proficiency}} additional damage to one creature hit by the spell. Additionally, as a bonus action on your turn, you may take on a mantle of a different suit. Choose one of the suits, your spellcasting focus is replaced by one belonging to the new suit. You gain access to all the cantrips of the new suit and you gain advantage on your first attack roll with a cantrip belonging to the new suit. If the cantrip does not have an attack roll the target creature has disadvantage on the first saving throw it makes against the cantrip.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Selected Suit (Deck of Suits and Faces)" supports="Deck Suit" />
+		</rules>
+	</element>
+  <element name="Cups" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_CUPS">
+		<supports>Deck Suit</supports>
+		<description>
+      <ul>
+        <li>Your spellcasting focus turns into a chalice, orb, or crystal.</li>
+        <li>You learn the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_FRIENDS" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_FROSTBITE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_GUIDANCE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_RAY_OF_FROST" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_SHAPE_WATER" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_SHOCKING_GRASP" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_FRIENDS" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_FROSTBITE" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" spellcasting="Cardcaster" />
+		</rules>
+	</element>
+  <element name="Pentacles" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_PENTACLES">
+		<supports>Deck Suit</supports>
+		<description>
+      <ul>
+        <li>Your spellcasting focus turns into a piece of jewellery or a gemstone.</li>
+        <li>You learn the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_ACID_SPLASH" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_DRUIDCRAFT" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_INFESTATION" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_MAGIC_STONE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_MENDING" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_MOLD_EARTH" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INFESTATION" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MAGIC_STONE" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_MENDING" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MOLD_EARTH" spellcasting="Cardcaster" />
+		</rules>
+	</element>
+  <element name="Wands" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_WANDS">
+		<supports>Deck Suit</supports>
+		<description>
+      <ul>
+        <li>Your spellcasting focus turns into a wand, staff, or rod.</li>
+        <li>You learn the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_CHILL_TOUCH" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_CONTROL_FLAMES" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_CREATE_BONFIRE" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_PRODUCE_FLAME" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_THAUMATURGY" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_CHILL_TOUCH" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CREATE_BONFIRE" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" spellcasting="Cardcaster" />
+		</rules>
+	</element>
+  <element name="Swords" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_SWORDS">
+		<supports>Deck Suit</supports>
+		<description>
+      <ul>
+        <li>Your spellcasting focus turns into a martial melee weapon.</li>
+        <li>You learn the following cantrips:</li>
+      </ul>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_BLADE_WARD" />
+			</div>
+      <div class="reference">
+				<div element="ID_WOTC_TCOE_SPELL_BOOMING_BLADE" />
+			</div>
+      <div class="reference">
+				<div element="ID_XGTE_SPELL_GUST" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_MAGE_HAND" />
+			</div>
+      <div class="reference">
+				<div element="ID_WOTC_TCOE_SPELL_SWORD_BURST" />
+			</div>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_TRUE_STRIKE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BLADE_WARD" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_XGTE_SPELL_GUST" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SWORD_BURST" spellcasting="Cardcaster" />
+			<grant type="Spell" id="ID_PHB_SPELL_TRUE_STRIKE" spellcasting="Cardcaster" />
+		</rules>
+	</element>
+
+	<element name="Transcendent" type="Class Feature" source="Jalfik" id="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_TRANSCEND">
+		<description>
+			<p>At 20th level the tarot's gift to you is the mastery over a single card in your deck. After completion of a long rest, after resetting your deck, choose one of the first 8 cards in your deck [The Fool(0) - The Chariot(7)] and remove it from play. While it is removed, you may cast any of the spells on that card at will, without expending a play.</p>
+		</description>
+		<sheet>
+			<description>After completion of a long rest, after resetting your deck, choose one of the first 8 cards in your deck [The Fool(0) - The Chariot(7)] and remove it from play. While it is removed, you may cast any of the spells on that card at will, without expending a play.</description>
+		</sheet>
+	</element>
+
+	<element name="0 - The Fool" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_FOOL">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_CHAOS_BOLT" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SANCTUARY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Fool</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="I - The Magician" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_MAGICIAN">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MAGE_ARMOR" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MAGIC_MISSILE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SHIELD" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Magician</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="II - The High Priestess" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_PRIESTESS">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ENTANGLE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_WITCH_BOLT" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The High Priestess</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="III - The Empress" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_EMPRESS">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_CAUSE_FEAR" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_INFLICT_WOUNDS" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Empress</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="IV - The Emperor" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_EMPEROR">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ENLARGE_REDUCE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_HOLD_PERSON" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SHATTER" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Emperor</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="V - The Hierophant" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_HIEROPHANT">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DETECT_THOUGHTS" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_DRAGONS_BREATH" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_GUST_OF_WIND" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Hierophant</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="VI - The Lovers" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_LOVERS">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ENHANCE_ABILITY" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MOONBEAM" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SUGGESTION" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Lovers</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="VII - The Chariot" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_CHARIOT">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_HEAT_METAL" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MISTY_STEP" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Chariot</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="VIII - Justice" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_JUSTICE">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_HASTE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_LIGHTNING_BOLT" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_LIFE_TRANSFERENCE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">Justice</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="IX - The Hermit" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_HERMIT">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_BESTOW_CURSE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_FLY" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MAJOR_IMAGE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Hermit</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="X - Wheel of Fortune" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_WHEEL">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CONFUSION" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DIMENSION_DOOR" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_WATERY_SPHERE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">Wheel of Fortune</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XI - Strength" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_STRENGTH">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DOMINATE_BEAST" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_POLYMORPH" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">Strength</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XII - The Hanged Man" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_HANGED">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DOMINATE_PERSON" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_IMMOLATION" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_LEGEND_LORE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">5</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Hanged Man</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XIII - Death" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_DEATH">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CLOUDKILL" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CONTAGION" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_GEAS" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">5</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">Death</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XIV - Temperance" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_TEMPERANCE">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_GLOBE_OF_INVULNERABILITY" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_MENTAL_PRISON" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SUNBEAM" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">6</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">Temperance</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XV - The Devil" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_DEVIL">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then place this card in your discard pile.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DISINTEGRATE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_FLESH_TO_STONE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MASS_SUGGESTION" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">6</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Devil</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XVI - The Tower" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_TOWER">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then remove this card and The Star(17) from play.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_REVERSE_GRAVITY" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MORDENKAINENS_MAGNIFICENT_MANSION" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_TELEPORT" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">7</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Tower</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XVII - The Star" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_STAR">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then remove this card and The Tower(16) from play.</p>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_CROWN_OF_STARS" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_PLANE_SHIFT" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_PROJECT_IMAGE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">7</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Star</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XVIII - The Moon" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_MOON">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then remove this card and The Sun(19) from play.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ANTIPATHY_SYMPATHY" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ANTIMAGIC_FIELD" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DOMINATE_MONSTER" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">8</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Moon</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XIX - The Sun" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_SUN">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then remove this card and The Moon(18) from play.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CONTROL_WEATHER" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_POWER_WORD_STUN" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SUNBURST" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">8</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The Sun</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XX - Judgement" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_JUDGEMENT">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then remove this card and The World(21) from play.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_POWER_WORD_KILL" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_STORM_OF_VENGEANCE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_TRUE_POLYMORPH" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">9</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">Judgement</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="XXI - The World" type="Spell" source="Jalfik" id="ID_NOUS_MISC_SPELL_WORLD">
+		<supports>Cardcaster</supports>
+		<description>
+			<p>When played, cast one of the following spells, then remove this card and Judgement(20) from play.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_GATE" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_TIME_STOP" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_WISH" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">9</set>
+			<set name="school">Major Arcana</set>
+			<set name="time">N/A</set>
+			<set name="duration">N/A</set>
+			<set name="range">N/A</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">The World</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+</elements>

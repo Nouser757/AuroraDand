@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<info>
+		<name>Cardcaster-Court</name>
+    <author>Jalfik</author>
+		<update version="0.1">
+			<file name="cardcaster-court.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Subclasses/Cardcaster-Court.xml" />
+		</update>
+	</info>
+
+  <element name="Page" type="Archetype" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_COURT_CARD_PAGE">
+		<supports>Court Card</supports>
+		<description>
+			<p>The Page outshines all others when it comes to his adaptability and safety. Always ready to learn and try new things, the page can quickly adapt to new situations.</p>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_EAGERNESS"/>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_APPRENTICE"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_FOOTING"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_YEARNING"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_EAGERNESS" level="3" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_APPRENTICE" level="6" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_FOOTING" level="10" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_YEARNING" level="14" />
+		</rules>
+	</element>
+	<element name="Eagerness" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_EAGERNESS">
+		<supports>Deck First</supports>
+		<description>
+			<p>When you choose this Court Card at 3rd level, the Page grants you a feeling of curiosity and energy that calls you to seek out the world and test yourself. You gain advantage on initiative rolls and your movement speed is increased by 10 feet.</p>
+		</description>
+		<sheet>
+			<description>You gain advantage on initiative rolls.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:misc" value="10" />
+			<stat name="innate speed:climb:misc" value="10" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="10" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="10" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="10" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+	<element name="Perpetual Apprentice" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_APPRENTICE">
+		<supports>Deck Second</supports>
+		<description>
+			<p>At 6th level, the Page reveals the joy of learning and practicing new skills to you. At any time, you may play a card from your hand, but rather than casting a spell, you gain proficiency in one skill, tool, language, saving throw, or weapon for a number of hours equal to your current Slot Level.</p>
+		</description>
+		<sheet>
+			<description>At any time, you may play a card from your hand, but rather than casting a spell, you gain proficiency in one skill, tool, language, saving throw, or weapon for a number of hours equal to your current Slot Level.</description>
+		</sheet>
+	</element>
+	<element name="Careful Footing" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_FOOTING">
+		<supports>Deck Third</supports>
+		<description>
+			<p>When you reach 10th level, the Page reminds you that your eagerness is not equivalent to the recklessness of the knight, because of this you remain on your toes, alert to dangers. When you are subjected to an effect that allows you to make a dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</p>
+		</description>
+		<sheet>
+			<description>When you are subjected to an effect that allows you to make a dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</description>
+		</sheet>
+	</element>
+	<element name="Unbreakable Yearning" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_PAGE_YEARNING">
+		<supports>Deck Fourth</supports>
+		<description>
+			<p>At 14th level, nothing can bring down someone whose court card is the Page. You gain proficiency in all saving throws, and if you fail a saving throw, you may discard a card from your hand to reroll it.</p>
+		</description>
+		<sheet>
+			<description>If you fail a saving throw, you may discard a card from your hand to reroll it.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+		</rules>
+	</element>
+
+	<element name="Knight" type="Archetype" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_COURT_CARD_KNIGHT">
+		<supports>Court Card</supports>
+		<description>
+			<p>The Knight is the embodiment of confidence and foolishness. The Knight has perhaps an overinflated sense of his own abilities and charges forth into the world taking risks for the thrill of it. Rarely still or clam, this member of the court is always seeking out adventure and can't wait to see what's around the next corner.</p>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_EXPERTISE"/>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_ENDEAVOR"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_ADVENTURE"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_COURAGE"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_EXPERTISE" level="3" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_ENDEAVOR" level="6" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_ADVENTURE" level="10" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_COURAGE" level="14" />
+		</rules>
+	</element>
+	<element name="Expertise" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_EXPERTISE">
+		<supports>Deck First</supports>
+		<description>
+			<p>When you choose this Court Card at 3rd level, the Knight fills you with self assurance and confidence in your own abilities. Choose two skills that you are proficient in. Your proficiency bonus is doubled for any check that uses either of these skills.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Expertise (Knight)" number="2" supports="Expertise,Skill"/>
+		</rules>
+	</element>
+	<element name="Reckless Endeavor" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_ENDEAVOR">
+		<supports>Deck Second</supports>
+		<description>
+			<p>At 6th level you have become so confident in yourself that you often forget to think ahead, putting value in the present rather than on the future. On your turn you may choose to give yourself advantage on your next d20 roll. However, after you make that roll, your next d20 roll is made with disadvantage.</p>
+		</description>
+		<sheet>
+			<description>On your turn you may choose to give yourself advantage on your next d20 roll. However, after you make that roll, your next d20 roll is made with disadvantage.</description>
+		</sheet>
+	</element>
+	<element name="On to Adventure" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_ADVENTURE">
+		<supports>Deck Third</supports>
+		<description>
+			<p>When you reach 10th level you are no longer able to contain your desire to seek out the world. While mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated. Additionally, you alone ignore the effects of difficult terrain.</p>
+		</description>
+		<sheet>
+			<description>While mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated. Additionally, you alone ignore the effects of difficult terrain.</description>
+		</sheet>
+	</element>
+	<element name="Audacious Courage" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KNIGHT_COURAGE">
+		<supports>Deck Fourth</supports>
+		<description>
+			<p>At 14th level you are so confident in yourself that you even sense you can beat fate. When you would roll a d20, you may instead discard the top card of your deck. The number on this card is treated as the number you rolled. The Fool(0) and The Magician(1) count as critical failures while Judgement(20) and The World(21) count as critical successes. If your deck is empty, you cannot use this feature.</p>
+		</description>
+		<sheet>
+			<description>When you would roll a d20, you may instead discard the top card of your deck. The number on this card is treated as the number you rolled. The Fool(0) and The Magician(1) count as critical failures while Judgement(20) and The World(21) count as critical successes. If your deck is empty, you cannot use this feature.</description>
+		</sheet>
+	</element>
+
+	<element name="Queen" type="Archetype" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_COURT_CARD_QUEEN">
+		<supports>Court Card</supports>
+		<description>
+			<p>The Queen sits quietly, contemplating her options. She does not act until she has considered every possible outcome. The young and reckless consider her indecisive and weak, but the wise and powerful know she is as formidable as they come. Her mastery over Cardcasting transcends many of the limits of her peers.</p>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_POSSIBILITIES"/>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_PREPERATION"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_GAMBIT"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_FATE"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_POSSIBILITIES" level="3" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_PREPERATION" level="6" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_GAMBIT" level="10" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_FATE" level="14" />
+		</rules>
+	</element>
+	<element name="Possibilities" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_POSSIBILITIES">
+		<supports>Deck First</supports>
+		<description>
+			<p>When you choose this Court Card at 3rd level, the Queen's wisdom settles in you. You begin to understand that there are more solutions to problems that you had originally imagined. Your Hand Size is increased by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="cardcaster:spellcasting:prepare" value="2" />
+		</rules>
+	</element>
+	<element name="Preperation" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_PREPERATION">
+		<supports>Deck Second</supports>
+		<description>
+			<p>At 6th level the knowledge of the Queen has left you well prepared. The number of cards you can play between rests is increased by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="cardcaster:spellcasting:slots:count" value="2" />
+		</rules>
+	</element>
+	<element name="Queen's Gambit" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_GAMBIT">
+		<supports>Deck Third</supports>
+		<description>
+			<p>Starting at 10th level the Queen's experience has prepared you for whatever might come next. At any time, you may play a card to cast Counterspell with a spell slot of the same level as the spells embodied by the card. Strong cards are still removed from play if played this way.</p>
+		</description>
+		<sheet>
+			<description>At any time, you may play a card to cast Counterspell with a spell slot of the same level as the spells embodied by the card. Strong cards are still removed from play if played this way.</description>
+		</sheet>
+	</element>
+	<element name="Organize Fate" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_QUEEN_FATE">
+		<supports>Deck Fourth</supports>
+		<description>
+			<p>At 14th level the Queen has revealed that you control the cards just as much as they control you. When you use your Fate Renewed feature you may choose which cards you place back into the deck and which cards you wish to leave in the discard pile. Additionally, you may use your Fate Renewed feature a number of times per long rest equal to your proficiency bonus.</p>
+		</description>
+		<sheet>
+			<description>When you use your Fate Renewed feature you may choose which cards to shuffle into your deck and which to leave where they are. Additionally, you may use your Fate Renewed feature a number of times per long rest equal to your proficiency bonus.</description>
+		</sheet>
+	</element>
+
+	<element name="King" type="Archetype" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_COURT_CARD_KING">
+		<supports>Court Card</supports>
+		<description>
+			<p>The King stands at the end of his journey. He has spent time mastering his Governing Suit and has learned to utilize everything it has to offer. Besides his mastery, the king takes it upon himself to guide and look after those beneath him and guide them on their journeys. However, should enemies stand in the King's path, he has well placed confidence in his abilities</p>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_GUIDANCE"/>
+			<div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_LEGACY"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_POWER"/>
+      <div element="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_MASTERY"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_GUIDANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_LEGACY" level="6" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_POWER" level="10" />
+			<grant type="Archetype Feature" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_MASTERY" level="14" />
+		</rules>
+	</element>
+	<element name="Guidance" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_GUIDANCE">
+		<supports>Deck First</supports>
+		<description>
+			<p>When you choose this Court Card at 3rd level, the King fills you with both the desire and ability to lead your friends to success. As a bonus action on your turn you may use the Help action. Additionally, you may use the Help action on a creature that is up to 30 feet away.</p>
+		</description>
+		<sheet>
+			<description>As a bonus action on your turn you may use the Help action. Additionally, you may use the Help action on a creature that is up to 30 feet away.</description>
+		</sheet>
+	</element>
+	<element name="Entrust Legacy" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_LEGACY">
+		<supports>Deck Second</supports>
+		<description>
+			<p>At 6th level the King teaches you how to spread the most aid possible. When you cast a spell that targets one or more allies, you may discard cards from your hand to target one additional ally per card discarded.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell that targets one or more allies, you may discard cards from your hand to target one additional ally per card discarded.</description>
+		</sheet>
+	</element>
+	<element name="Edict of Power" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_POWER">
+		<supports>Deck Third</supports>
+		<description>
+			<p>When you reach 10th level the King bestows upon you the ability to wield his absolute power. As an action, you may choose one creature within 60 feet of you and play a card from your hand. That creature must make a Wisdom saving throw or take 1d10 force damage, plus an additional Xd10 force damage, where X is the number of the card. On a successful save a creature takes half damage. Strong cards are still removed from play if played this way.</p>
+		</description>
+		<sheet>
+			<description>As an action, you may choose one creature within 60 feet of you and play a card from your hand. That creature must make a Wisdom saving throw or take 1d10 force damage, plus an additional Xd10 force damage, where X is the number of the card. On a successful save a creature takes half damage. Strong cards are still removed from play if played this way.</description>
+		</sheet>
+	</element>
+	<element name="Elemental Mastery" type="Archetype Feature" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_FEATURE_KING_MASTERY">
+		<supports>Deck Fourth</supports>
+		<description>
+			<p>At 14th level the King has guided you to a full mastery of your chosen suit. Depending on your Governing Suit you gain access to a new spell which you may cast once without consuming a play. After casting it you must complete a long rest before casting it again. When you change your suit with your Deck of Suits and Faces trait, you also change which spell you have access to.</p>
+			<ul>
+				<li>Cups - Investiture of Ice</li>
+				<li>Pentacles - Investiture of Stone.</li>
+				<li>Wands - Investiture of Flame.</li>
+				<li>Swords - Investiture of Wind.</li>
+			</ul>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_INVESTITURE_OF_ICE" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_INVESTITURE_OF_STONE" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_INVESTITURE_OF_FLAME" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_INVESTITURE_OF_WIND" />
+			</div>
+		</description>
+		<sheet>
+			<description>At 14th level the King has guided you to a full mastery of your chosen suit. Depending on your Governing Suit you gain access to a new spell [Investiture of Ice/Stone/Flame/Wind] which you may cast once without consuming a play. After casting it you must complete a long rest before casting it again. When you change your suit with your Deck of Suits and Faces trait, you also change which spell you have access to.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_ICE" spellcasting="Cardcaster" requirements="(!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK),ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_CUPS" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_STONE" spellcasting="Cardcaster" requirements="(!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK),ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_PENTACLES" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_FLAME" spellcasting="Cardcaster" requirements="(!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK),ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_WANDS" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_WIND" spellcasting="Cardcaster" requirements="(!ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK),ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_SUIT_SWORDS" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_ICE" spellcasting="Cardcaster" requirements="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK,ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_CUPS" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_STONE" spellcasting="Cardcaster" requirements="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK,ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_PENTACLES" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_FLAME" spellcasting="Cardcaster" requirements="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK,ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_WANDS" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVESTITURE_OF_WIND" spellcasting="Cardcaster" requirements="ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK,ID_NOUS_MISC_CLASS_FEATURE_CARDCASTER_DECK_SWORDS" />
+		</rules>
+	</element>
+
+	<element name="Face" type="Archetype" source="Jalfik" id="ID_NOUS_MISC_ARCHETYPE_COURT_CARD_FACE">
+		<supports>Court Deck</supports>
+		<description>
+			<p>You may choose to forego your current Subclass features gained from Court Card and instead craft your own Court Card by selecting one feature of each level from the Page, Knight, Queen, or King. Each time you complete a long rest you may choose a different collection of features from among the Court Cards.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name ="Court Feature (3)" supports="Deck First" />
+			<select type="Archetype Feature" name ="Court Feature (6)" supports="Deck Second" />
+			<select type="Archetype Feature" name ="Court Feature (10)" supports="Deck Third" />
+			<select type="Archetype Feature" name ="Court Feature (14)" supports="Deck Fourth" />
+		</rules>
+	</element>
+
+</elements>
