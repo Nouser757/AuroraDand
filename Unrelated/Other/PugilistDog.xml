@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <info>
+    <name>Pugilist Dog Fix</name>
+    <update version="0.3">
+      <file name="pugilistdog.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Other/PugilistDog.xml" />
+    </update>
+  </info>
+
+  <append id="ID_DMSG_PUGL_ARCHETYPE_FEATURE_HOUND_BESTFRIEND">
+    <rules>
+      <select type="Companion" name="Best Friend" supports="Dire Pugilist Hound" level="17"/>
+			<select type="Companion" name="Best Friend" supports="Pugilist Hound" requirements="!ID_NOUS_MISC_COMPANION_BRAWLER_FRIEND_DIRE"/>
+		</rules>
+  </append>
+
+  <element name="Brawler's Best Friend" type="Companion" source="The Pugilist Class" id="ID_NOUS_MISC_COMPANION_BRAWLER_FRIEND">
+    <supports>Pugilist Hound</supports>
+		<description>
+			<p>At 3rd level, you gain a hound that accompanies you on your adventures and fights alongside you. Your hound can be any breed of dog or similar canine creature, but uses the statistics of a wolf</p>
+			<p><b>Proficiency Bonus (PB)</b> equals your proficiency bonus</p>
+		</description>
+		<setters>
+			<set name="size">Medium</set>
+			<set name="type">Beast</set>
+			<set name="alignment">unaligned</set>
+			<set name="ac">13+PB (natural armor)</set>
+			<set name="hp">11 (+ 5 times your pugilist level after third) (the hound has a number of Hit Dice [d8s] equal to your pugilist level)</set>
+			<set name="speed">40 ft.</set>
+			<set name="strength">12</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">12</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">6</set>
+			<set name="skills">Perception +3, Stealh +4</set>
+			<set name="senses">Passive Perception 13</set>
+			<set name="challenge">1/4</set>
+			<set name="traits">ID_NOUS_MISC_COMPANION_TRAIT_KEEN, ID_NOUS_MISC_COMPANION_TRAIT_PACK</set>
+			<set name="actions">ID_NOUS_MISC_COMPANION_ACTION_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" bonus="base" />
+      <stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="-4" bonus="needs to be 11 at lvl 3, so remove 15"/>
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+      <stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+      <stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+      <stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+      <stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+
+  <element name="Keen Hearing and Smell." type="Companion Trait" source="The Pugilist Class" id="ID_NOUS_MISC_COMPANION_TRAIT_KEEN">
+		<description>
+			<p>The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+
+  <element name="Pack Tactics" type="Companion Trait" source="The Pugilist Class" id="ID_NOUS_MISC_COMPANION_TRAIT_PACK">
+		<description>
+			<p>The hound has advantage on attack rolls against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+		</description>
+		<sheet>
+			<description>The hound has advantage on attack rolls against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.</description>
+		</sheet>
+	</element>
+
+  <element name="Bite" type="Companion Action" source="The Pugilist Class" id="ID_NOUS_MISC_COMPANION_ACTION_BITE">
+		<description>
+			<p>Melee Weapon Attack: +2+PB to hit, reach 5 ft., one target. Hit: 2d4+PB piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +PB+2 to hit, reach 5 ft., one target. Hit: 2d4+PB piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+
+  <element name="Brawler's Dire Friend" type="Companion" source="The Pugilist Class" id="ID_NOUS_MISC_COMPANION_BRAWLER_FRIEND_DIRE">
+		<supports>Dire Pugilist Hound</supports>
+    <description>
+			<p>At 3rd level, you gain a hound that accompanies you on your adventures and fights alongside you. Your hound can be any breed of dog or similar canine creature, but uses the statistics of a wolf</p>
+			<p>Beginning at 17th level, you use the statistics for a dire wolf, instead of a wolf, for your hound</p>
+      <p><b>Proficiency Bonus (PB)</b> equals your proficiency bonus</p>
+		</description>
+		<setters>
+			<set name="size">Medium</set>
+			<set name="type">Beast</set>
+			<set name="alignment">unaligned</set>
+			<set name="ac">14+PB (natural armor)</set>
+			<set name="hp">37 (+ 6 times your pugilist level after third) (the hound has a number of Hit Dice [d8s] equal to your pugilist level)</set>
+			<set name="speed">50 ft.</set>
+			<set name="strength">17</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="skills">Perception +3, Stealh +4</set>
+			<set name="senses">Passive Perception 13</set>
+			<set name="challenge">1</set>
+			<set name="traits">ID_NOUS_MISC_COMPANION_TRAIT_KEEN, ID_NOUS_MISC_COMPANION_TRAIT_PACK</set>
+			<set name="actions">ID_NOUS_MISC_COMPANION_ACTION_BITE_DIRE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" bonus="base" />
+      <stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="22" bonus="needs to be 37 at lvl 3, so remove 15"/>
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:hp:max" value="level:pugilist" />
+      <stat name="companion:hp:max" value="level:pugilist" />
+			<stat name="companion:speed" value="50" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+      <stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+      <stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+      <stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+      <stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+
+   <element name="Bite" type="Companion Action" source="The Pugilist Class" id="ID_NOUS_MISC_COMPANION_ACTION_BITE_DIRE">
+		<description>
+			<p>Melee Weapon Attack: +PB+3 to hit, reach 5 ft., one target. Hit: 2d6+PB+1 piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +PB+3 to hit, reach 5 ft., one target. Hit: 2d6+PB+1 piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+</elements>

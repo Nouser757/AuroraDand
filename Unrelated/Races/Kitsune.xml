@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <info>
+    <name>Kitsune</name>
+    <update version="0.1">
+      <file name="kitsune.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraMISC/main/Unrelated/Races/Kitsune.xml" />
+    </update>
+  </info>
+
+  <element name="Kitsune" type="Race" source="Arron" id="ID_NOUS_MISC_RACE_KITSUNE">
+    <description>
+      <h4>Physical Description</h4>
+      <p>Kitsune have a size that's near same to that of an elf, being slightly shorter, and lithe than a typical human of the same stature. In their natural form they are much like anthropomorphic foxes. They usually have light coloured fur, Orange, reddish brown, golden brown, though it isn't completely unheard of for them to posses black, white, silver or golden fur covering their entire body. Some may have multiple colors in their fur such as being mostly reddish brown with white gloves and socks. Their eyes range in colour as well, though most have blue, green, or brown eyes. Albeit uncommon they may also have orange, purple, yellow, or even red eyes. They have mostly human-like hands though they do possess dark black claws at the ends of their fingers. A kitsune is born with a single tail, but gain more tails as they grow older. A Kitsune's age is very difficult to tell since they appear to stop aging in their early twenties and commonly live to be a few years past nine-hundred, some for a full millenium.</p>
+      <h4>History</h4>
+      <p>Kitsune are a race of fox people that are quite rare. They tend to hide their heritage while dealing with those of other races as a way to keep away from the discrimination and hatred built up in the legends of some of their most powerful brethren. There are many legends floating around the world relating to powerful nine-tailed Kitsune. Powerful and wise, a nine-tailed Kitsune has white or golden fur, tending to be powerful sorcerers. It is said in legend that Kitsune are born tricksters and have nigh infinite power by the time they are fully matured. Supposedly, the only way to kill a Kitsune is to cut off all of its tails, where it's power is stored, but that is simply a tall tale to scare young children. Due to the legend stating that a Kitsune's tail contains power, the Kitsune were nearly wiped out for their tails and most of them went into hiding. Only just getting back into the world after centuries of hiding, it is still the practice of some races to sever a Kitsune's tail in hopes of obtaining power.</p>
+      <h4>Kitsune Traits</h4>
+      <p>A race of anthropomorphic fox people who have magic in their blood and light shape-changing capabilities.</p>
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2.</p>
+      <p class="indent"><strong><em>Age.</em></strong> Kitsune reach adulthood at sixteen, cease physical aging in their early twenties and live to be over nine-hundred.</p>
+      <p class="indent"><strong><em>Alignment.</em></strong> Due to their nature of being a bit mischievous, Kitsune are often chaotic. Even the most displined of Kitsune find it difficult to suppress their trickster nature, but they tend to approach the trick in a much more planned out and guided manner. Kitsune are known to be both good and evil.</p>
+      <p class="indent"><strong><em>Size.</em></strong> Medium (Base height range of 4'5" to 6'8") .</p>
+      <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet. While not carrying anything in your hands you can drop to all fours and increase your movement speed to 40 feet.</p>
+      <p class="indent"><strong><em>Darkvision.</em></strong> Due to your Fox heritage, you have the ability to see normally in darkness out to 60 feet as if the area was in dim light and in dim light as if the area was bright light. You can't discern color in darkness, only shades of gray.</p>
+      <p class="indent"><strong><em>Fey Ancestry.</em></strong> Being of fey blood means you get advantage against being charmed. and magic can't put you to sleep</p>
+      <p class="indent"><strong><em>Faerie Tails.</em></strong> Kitsune begin their lives with one tail around 3 feet long. At 4th level and every four levels afterwards, you grow an additional tail as you increase in age and worldly experience. Enlightening, uplifting or incredible events may also result in the growth of an additional tail, at the discretion of the DM, up to a maximum total of 9. Note: Kitsune are capable of hiding just how many tail they have...even appearing to have none if they so choose... (This is mainly a mechanic for gaining tails that can be used if desired and serves no other purpose unless paired with the 'Magical Tails' Optional Feat Below.)</p>
+      <p class="indent"><strong><em>Kitsune Trickery.</em></strong> You can appear as a human of the same sex indefinitely using a very simple illusion magic. However, on a DC 10 + proficiency bonus + Charisma Modifier Investigation check, a person looking directly at you can tell that you are not what you appear, though they still cannot tell your true form. This magic is detectable and dispelled in an anti-magic field or by dispel magic (your character level divided by 2 rounded down is the level of this spell for the sake of dispel magic). If your illusion is dispelled you cannot use the effect again until after a long rest. A kitsune also always assumes the appearance of a specfific humanoid (Player can choose, only 1). The abilty functioning as alter self (change of appearance only).</p>
+      <p class="indent"><strong><em>Shapechanger.</em></strong>  A kitsune takes naturally to shapeshifting and develop that gift allowing them to change themselves into a fox indefinitely using a natural transmutation magic. But, on a DC 8 + proficiency bonus + Charisma Modifier Investigation check, a person looking directly at you can tell that you are not what you appear, though they still cannot tell your true form. (I.E. They may know you have sentience/can understand them.) This magic is detectable and dispelled in an anti-magic field or by dispel magic (your character level divided by 2 rounded down is the level of this spell for the sake of dispel magic). If this Magic is dispelled or you revert to normal willingly, you cannot use the effect again until after a long rest. You lose the ability to speak in Fox form, but you still understand the languages you know. Upon casting this ability to become a fox your equipment merges with you, your AC is set to 14, Your HP becomes 6 (1d8+1) your size becomes small and your max movement speed is 35 feet You gain a +4 to stealth while in this form due to your small size You also gain a 1d4 bite attack. This abilty functioning as a druid's Wild Shape (Save the fact a kitsune may only become a fox). Your Faerie Tails trait still applies while in this form, although you must have a minimum of one tail.</p>
+      <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Sylvan and Vulpine.</p>
+      <p class="indent"><strong><em>Kitsune Awareness.</em></strong> Kitsune have a Keen sense regarding magic. Upon passing either an Investigation check or Perception check (Your choice) versus an opposing magically disguised creatures performance or Deception check, Kitsune can ascertain the true nature of said creature or even other kitsune upon passing said check by over 5. As if by True Sight (Only effects the opposing creature/creatures)</p>
+      <p class="indent"><strong><em>Subrace.</em></strong> You may choose a subraces.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Kitsune)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <grant type="Racial Trait" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_SPEED" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <grant type="Language" id="ID_LANGUAGE_SYLVAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <grant type="Language" id="ID_NOUS_MISC_LANGUAGE_VULPINE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <select type="Language" name="Customized Language" number="3" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_FEY_ANCESTRY" />
+      <grant type="Racial Trait" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_FAERIE_TAILS" />
+      <grant type="Racial Trait" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_KITSUNE_TRICKERY" />
+      <grant type="Racial Trait" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_SHAPECHANGER" />
+      <grant type="Racial Trait" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_KITSUNE_AWARENESS" />
+      <select type="Sub Race" name="Kitsune Subrace" supports="Kitsune" />
+    </rules>
+  </element>
+
+  <element name="Speed" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_SPEED">
+		<description>
+			<p>Your base walking speed is 30 feet. While not carrying anything in your hands you can drop to all fours and increase your movement speed to 40 feet.</p>
+		</description>
+		<sheet>
+			<description>While not carrying anything in your hands, you can drop to all fours and increase your movement speed to 40 feet.</description>
+		</sheet>
+    <rules>
+      <stat name="innate speed" value="30" bonus="base" />
+    </rules>
+	</element>
+
+  <element name="Vulpine" type="Language" source="Arron" id="ID_NOUS_MISC_LANGUAGE_VULPINE">
+		<supports>Exotic</supports>
+		<description>
+			<p>This language is known to foxes and consists of mainly geckering, growls, barks, yelping and howls and allows those who know it to communicate with wild foxes. Written, it looks like oddly scratched marks, made quick yet precise.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Foxes, Kitsune</set>
+			<set name="script">Vulpine</set>
+		</setters>
+	</element>
+
+  <element name="Faerie Tails" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_FAERIE_TAILS">
+		<description>
+			<p>Kitsune begin their lives with one tail around 3 feet long. At 4th level and every four levels afterwards, you grow an additional tail as you increase in age and worldly experience. Enlightening, uplifting or incredible events may also result in the growth of an additional tail, at the discretion of the DM, up to a maximum total of 9. Note: Kitsune are capable of hiding just how many tail they have...even appearing to have none if they so choose... (This is mainly a mechanic for gaining tails that can be used if desired and serves no other purpose unless paired with the 'Magical Tails' Optional Feat Below.)</p>
+		</description>
+		<sheet>
+			<description>Kitsune begin their lives with one tail around 3 feet long. At 4th level and every four levels afterwards, you grow an additional tail as you increase in age and worldly experience. Enlightening, uplifting or incredible events may also result in the growth of an additional tail, at the discretion of the DM, up to a maximum total of 9. Note: Kitsune are capable of hiding just how many tail they have...even appearing to have none if they so choose... (This is mainly a mechanic for gaining tails that can be used if desired and serves no other purpose unless paired with the 'Magical Tails' Optional Feat Below.)</description>
+		</sheet>
+	</element>
+
+  <element name="Kitsune Trickery" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_KITSUNE_TRICKERY">
+		<description>
+			<p>You can appear as a human of the same sex indefinitely using a very simple illusion magic. However, on a DC 10 + proficiency bonus + Charisma Modifier Investigation check, a person looking directly at you can tell that you are not what you appear, though they still cannot tell your true form. This magic is detectable and dispelled in an anti-magic field or by dispel magic (your character level divided by 2 rounded down is the level of this spell for the sake of dispel magic). If your illusion is dispelled you cannot use the effect again until after a long rest. A kitsune also always assumes the appearance of a specfific humanoid (Player can choose, only 1). The abilty functioning as alter self (change of appearance only).</p>
+		</description>
+		<sheet>
+			<description>You can appear as a human of the same sex indefinitely using a very simple illusion magic. However, on a DC 10 + proficiency bonus + Charisma Modifier Investigation check, a person looking directly at you can tell that you are not what you appear, though they still cannot tell your true form. This magic is detectable and dispelled in an anti-magic field or by dispel magic (your character level divided by 2 rounded down is the level of this spell for the sake of dispel magic). If your illusion is dispelled you cannot use the effect again until after a long rest. A kitsune also always assumes the appearance of a specfific humanoid (Player can choose, only 1). The abilty functioning as alter self (change of appearance only).</description>
+		</sheet>
+	</element>
+
+  <element name="Shapechanger" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_SHAPECHANGER">
+		<description>
+			<p>A kitsune takes naturally to shapeshifting and develop that gift allowing them to change themselves into a fox indefinitely using a natural transmutation magic. But, on a DC 8 + proficiency bonus + Charisma Modifier Investigation check, a person looking directly at you can tell that you are not what you appear, though they still cannot tell your true form. (I.E. They may know you have sentience/can understand them.) This magic is detectable and dispelled in an anti-magic field or by dispel magic (your character level divided by 2 rounded down is the level of this spell for the sake of dispel magic). If this Magic is dispelled or you revert to normal willingly, you cannot use the effect again until after a long rest. You lose the ability to speak in Fox form, but you still understand the languages you know. Upon casting this ability to become a fox your equipment merges with you, your AC is set to 14, Your HP becomes 6 (1d8+1) your size becomes small and your max movement speed is 35 feet You gain a +4 to stealth while in this form due to your small size You also gain a 1d4 bite attack. This abilty functioning as a druid's Wild Shape (Save the fact a kitsune may only become a fox). Your Faerie Tails trait still applies while in this form, although you must have a minimum of one tail.</p>
+		</description>
+		<sheet>
+			<description>A kitsune takes naturally to shapeshifting and develop that gift allowing them to change themselves into a fox indefinitely using a natural transmutation magic. But, on a DC 8 + proficiency bonus + Charisma Modifier Investigation check, a person looking directly at you can tell that you are not what you appear, though they still cannot tell your true form. (I.E. They may know you have sentience/can understand them.) This magic is detectable and dispelled in an anti-magic field or by dispel magic (your character level divided by 2 rounded down is the level of this spell for the sake of dispel magic). If this Magic is dispelled or you revert to normal willingly, you cannot use the effect again until after a long rest. You lose the ability to speak in Fox form, but you still understand the languages you know. Upon casting this ability to become a fox your equipment merges with you, your AC is set to 14, Your HP becomes 6 (1d8+1) your size becomes small and your max movement speed is 35 feet You gain a +4 to stealth while in this form due to your small size You also gain a 1d4 bite attack. This abilty functioning as a druid's Wild Shape (Save the fact a kitsune may only become a fox). Your Faerie Tails trait still applies while in this form, although you must have a minimum of one tail.</description>
+		</sheet>
+	</element>
+
+  <element name="Kitsune Awareness" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_KITSUNE_AWARENESS">
+		<description>
+			<p>Kitsune have a Keen sense regarding magic. Upon passing either an Investigation check or Perception check (Your choice) versus an opposing magically disguised creatures performance or Deception check, Kitsune can ascertain the true nature of said creature or even other kitsune upon passing said check by over 5. As if by True Sight (Only effects the opposing creature/creatures)</p>
+		</description>
+		<sheet>
+			<description>Kitsune have a Keen sense regarding magic. Upon passing either an Investigation check or Perception check (Your choice) versus an opposing magically disguised creatures performance or Deception check, Kitsune can ascertain the true nature of said creature or even other kitsune upon passing said check by over 5. As if by True Sight (Only effects the opposing creature/creatures)</description>
+		</sheet>
+	</element>
+
+  <element name="Zenko" type="Sub Race" source="Arron" id="ID_NOUS_MISC_SUB_RACE_KITSUNE_ZENKO">
+		<supports>Kitsune</supports>
+		<description>
+			<p>They are the Celestial Kitsune, most are benevolent and kind. These Kitsune tend to have the lighter fur colours, white, golden brown, grey, etc. (Fur colors are merely a suggestion.)</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+      <p class="indent"><strong><em>Kitsune Divinity.</em></strong> At level 1 you are able to use the dancing lights cantrip. Once you reach 3rd level, you can cast the color spray spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the calm emotions spell once with this trait, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+      <stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Zenko)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <grant type="Racial Trait" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_DIVINITY" />
+		</rules>
+	</element>
+
+  <element name="Kitsune Divinity" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_DIVINITY">
+    <description>
+      <p>At level 1 you are able to use the dancing lights cantrip. Once you reach 3rd level, you can cast the color spray spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the calm emotions spell once with this trait, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+    </description>
+    <sheet>
+      <description>You know the dancing lights cantrip. Charisma is your spellcasting ability for these spells.</description>
+      <description level="3">You know the dancing lights cantrip. You can cast the color spray spell once per rest. Charisma is your spellcasting ability for these spells.</description>
+      <description level="5">You know the dancing lights cantrip. You can cast the color spray spell and the calm emotions spell once per rest. Charisma is your spellcasting ability for these spells.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+      <grant type="Spell" id="ID_PHB_SPELL_COLOR_SPRAY" level="3"/>
+      <grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5"/>
+    </rules>
+  </element>
+
+  <element name="Yako" type="Sub Race" source="Arron" id="ID_NOUS_MISC_SUB_RACE_KITSUNE_YAKO">
+		<supports>Kitsune</supports>
+		<description>
+			<p>They are known as Trickster Kitsune, since they are the ones more prone to their prankster heritage. These Kitsune tend to have the darker fur colours, black, reddish brown, dark grey, etc. (Fur colors are merely a suggestion.)</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+      <p class="indent"><strong><em>Kitsune Arcana.</em></strong> At level 1 you are able to use the produce flame cantrip, with the exception that your flame is blue. Once you reach 3rd level, you can cast the charm person spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the phantasmal force spell once with this trait, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+      <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Yako)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      <grant type="Racial Trait" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_ARCANA" />
+		</rules>
+	</element>
+
+  <element name="Kitsune Arcana" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_RACIAL_TRAIT_KITSUNE_ARCANA">
+    <description>
+      <p>At level 1 you are able to use the produce flame cantrip, with the exception that your flame is blue. Once you reach 3rd level, you can cast the charm person spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the phantasmal force spell once with this trait, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+    </description>
+    <sheet>
+      <description>You know the produce flame cantrip, which produces blue flame. Charisma is your spellcasting ability for these spells.</description>
+      <description level="3">You know the produce flame cantrip, which produces blue flame. You can cast the charm person spell once per rest. Charisma is your spellcasting ability for these spells.</description>
+      <description level="5">You know the produce flame cantrip, which produces blue flame. You can cast the charm person spell and the phantasmal force spell once per rest. Charisma is your spellcasting ability for these spells.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" />
+      <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="3"/>
+      <grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="5"/>
+    </rules>
+  </element>
+
+  <element name="Magical Tails" type="Feat" source="Arron" id="ID_NOUS_MISC_FEAT_MAGICAL_TAILS">
+      <prerequisite>Kitsune</prerequisite>
+      <requirements>ID_NOUS_MISC_RACE_KITSUNE</requirements>
+      <description>
+        <p><i>Prerequisite: Kitsune race</i></p>
+        <p>This feat replaces your Faerie Tails trait.</p>
+        <p class="indent">Starting at level four, you gain an extra tail and another tail every four levels after. With each tail, you gain a spell of the level equal to the total number of tails you have from the Illusion, Enchantment, or Transmutation schools that can be cast once per long rest.</p>
+        <p class="indent">While this feat will only gain you magic for six tails through leveling, as with the Faerie Tails trait your DM may award you extra tails at their discretion. Such as through Enlightening, uplifting, incredible or even distressing/traumatic events.</p>
+        <p class="indent">Spells gained through this feat use Charisma as their spellcasting ability.</p>
+      </description>
+      <sheet>
+        <description>Your tails give you a variety of spells, each of which can be cast once per long rest, and use Charisma as your spellcasting ability</description>
+      </sheet>
+      <rules>
+        <select type="Racial Trait" name="Tail Count (including hidden)" supports="Tail Count" />
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 1" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_TWO||ID_NOUS_MISC_INTERNAL_TAIL_THREE||ID_NOUS_MISC_INTERNAL_TAIL_FOUR||ID_NOUS_MISC_INTERNAL_TAIL_FIVE||ID_NOUS_MISC_INTERNAL_TAIL_SIX||ID_NOUS_MISC_INTERNAL_TAIL_SEVEN||ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)"/>
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 2" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_TWO||ID_NOUS_MISC_INTERNAL_TAIL_THREE||ID_NOUS_MISC_INTERNAL_TAIL_FOUR||ID_NOUS_MISC_INTERNAL_TAIL_FIVE||ID_NOUS_MISC_INTERNAL_TAIL_SIX||ID_NOUS_MISC_INTERNAL_TAIL_SEVEN||ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)"/>
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 3" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_THREE||ID_NOUS_MISC_INTERNAL_TAIL_FOUR||ID_NOUS_MISC_INTERNAL_TAIL_FIVE||ID_NOUS_MISC_INTERNAL_TAIL_SIX||ID_NOUS_MISC_INTERNAL_TAIL_SEVEN||ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)" />
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 4" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_FOUR||ID_NOUS_MISC_INTERNAL_TAIL_FIVE||ID_NOUS_MISC_INTERNAL_TAIL_SIX||ID_NOUS_MISC_INTERNAL_TAIL_SEVEN||ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)" />
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 5" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_FIVE||ID_NOUS_MISC_INTERNAL_TAIL_SIX||ID_NOUS_MISC_INTERNAL_TAIL_SEVEN||ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)" />
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 6" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_SIX||ID_NOUS_MISC_INTERNAL_TAIL_SEVEN||ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)" />
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 7" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_SEVEN||ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)" />
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 8" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_EIGHT||ID_NOUS_MISC_INTERNAL_TAIL_NINE)" />
+        <select type="Spell" name="Spell (Magical Tails)" supports="(Illusion||Enchantment||Transmutation), 9" requirements="(ID_NOUS_MISC_INTERNAL_TAIL_NINE)" />
+      </rules>
+  </element>
+  <element name="2" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_TWO">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have two tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+  <element name="3" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_THREE">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have three tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+  <element name="4" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_FOUR">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have four tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+  <element name="5" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_FIVE">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have five tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+  <element name="6" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_SIX">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have six tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+  <element name="7" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_SEVEN">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have seven tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+  <element name="8" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_EIGHT">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have eight tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+  <element name="9" type="Racial Trait" source="Arron" id="ID_NOUS_MISC_INTERNAL_TAIL_NINE">
+    <supports>Tail Count</supports>
+    <description>
+      <p>You have nine tails.</p>
+    </description>
+    <sheet display="false" />
+  </element>
+</elements>

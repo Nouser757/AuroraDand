@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.7">
+    <update version="0.8">
       <file name="nouser.index" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/nouser.index" />
     </update>
   </info>
@@ -12,6 +12,7 @@
 	<file name="anthesi.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Anthesi.xml" />
 	<file name="arachne.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Arachne.xml" />
   <file name="harpy.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Races/Harpy.xml" />
+	<file name="kitsune.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraMISC/main/Unrelated/Races/Kitsune.xml" />
 	
 	<!-- classes -->
 	<file name="cardcaster.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Classes/Cardcaster.xml" />
@@ -30,5 +31,9 @@
 	<file name="danditems.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Dand-Wiki/Items.xml" />
 	
 	<!-- spells -->
+
+	<!-- other -->
+	<file name="pugilistdog.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Other/PugilistDog.xml" />
+
   </files>
 </index>
