@@ -3,7 +3,7 @@
 
   <info>
     <name>Kitsune</name>
-    <update version="0.1">
+    <update version="0.2">
       <file name="kitsune.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraMISC/main/Unrelated/Races/Kitsune.xml" />
     </update>
   </info>
@@ -110,7 +110,7 @@
 		</sheet>
 	</element>
 
-  <element name="Zenko" type="Sub Race" source="Arron" id="ID_NOUS_MISC_SUB_RACE_KITSUNE_ZENKO">
+  <element name="Zenko Kitsune" type="Sub Race" source="Arron" id="ID_NOUS_MISC_SUB_RACE_KITSUNE_ZENKO">
 		<supports>Kitsune</supports>
 		<description>
 			<p>They are the Celestial Kitsune, most are benevolent and kind. These Kitsune tend to have the lighter fur colours, white, golden brown, grey, etc. (Fur colors are merely a suggestion.)</p>
@@ -141,7 +141,7 @@
     </rules>
   </element>
 
-  <element name="Yako" type="Sub Race" source="Arron" id="ID_NOUS_MISC_SUB_RACE_KITSUNE_YAKO">
+  <element name="Yako Kitsune" type="Sub Race" source="Arron" id="ID_NOUS_MISC_SUB_RACE_KITSUNE_YAKO">
 		<supports>Kitsune</supports>
 		<description>
 			<p>They are known as Trickster Kitsune, since they are the ones more prone to their prankster heritage. These Kitsune tend to have the darker fur colours, black, reddish brown, dark grey, etc. (Fur colors are merely a suggestion.)</p>
