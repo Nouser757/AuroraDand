@@ -3,8 +3,8 @@
 
   <info>
     <name>Kitsune</name>
-    <update version="0.2">
-      <file name="kitsune.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraMISC/main/Unrelated/Races/Kitsune.xml" />
+    <update version="0.3">
+      <file name="kitsune.xml" url="https://raw.githubusercontent.com/Nouser757/AuroraDand/main/Unrelated/Races/Kitsune.xml" />
     </update>
   </info>
 
